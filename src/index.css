@@ -11,6 +11,8 @@
 
 	--height-navbar: 80px;
 
+	--primary: #fff;
+
 	--navbar-color: linear-gradient(
 		90deg,
 		rgb(28, 27, 27) 0%,
@@ -46,7 +48,7 @@ ul {
 }
 
 .home {
-	height: 90vh;
+	height: calc(100vh - var(--height-navbar));
 	font-size: 3rem;
 
 	display: flex;
