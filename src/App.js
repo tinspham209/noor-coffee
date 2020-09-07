@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Navbar } from "./components";
 
 import { NotFound, Spinner } from "./components/UI/";
 import ScrollToTop from "./components/ScrollToTop";
@@ -10,7 +11,7 @@ function App() {
 		<Suspense fallback={<Spinner />}>
 			<Router>
 				<ScrollToTop />
-				{/* <Navbar /> */}
+				<Navbar />
 				<Switch>
 					<Route path="/" exact component={Home} />
 					<Route component={NotFound} />
