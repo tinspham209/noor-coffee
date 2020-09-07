@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 .body {
 	background-color: #95c2de;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .mainbox {
@@ -39,7 +44,7 @@
 .msg {
 	text-align: center;
 	font-family: "consolas", sans-serif;
-	font-size: 1.6rem;
+	font-size: 2rem;
 	position: absolute;
 	left: 16%;
 	top: 45%;
