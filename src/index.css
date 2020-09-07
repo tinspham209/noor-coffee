@@ -1,0 +1,82 @@
+/* Global styles */
+:root {
+	/* --main-color: 
+	--secondary-color:  */
+
+	--border-color: #000;
+
+	--main-text: black;
+
+	--a-color: #17a2b8;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Lato", sans-serif;
+	font-size: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+	color: var(--main-text);
+	font-family: "Lato", sans-serif;
+	font-weight: 500;
+}
+
+p,
+li,
+span,
+label,
+input,
+textarea {
+	color: var(--secondary-text);
+	font-family: "Lato", monospace;
+}
+
+a {
+	text-decoration: none;
+	color: var(--a-color);
+}
+
+ul {
+	list-style: none;
+}
+
+h1 {
+	font-size: 56px;
+}
+
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+.home {
+	height: 90vh;
+	font-size: 3rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
