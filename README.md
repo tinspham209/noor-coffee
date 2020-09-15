@@ -12,6 +12,7 @@
 
 - React Hooks
 - react-router-dom
+- react-router-hash-link
 - styled-components
 - react-icons
 - leaflet
@@ -37,13 +38,24 @@
 9. Import Data to InfoSection
 10. Create Stores page
 11. Create StoreMaps component
-12. Implement OpenStreetMap to StoreMaps
+12. Create Maps component
+13. Implement OpenStreetMap to StoreMaps
+14. Import Data to Stores page
+15. Create Products page
+16. Create Products component
+17. Create ProductList component
+18. Create Product component
+19. Import Data to Products page
 
-### After this project
+### Components function:
 
-I have improve my knowledge about
-I have understand about
-Next Steps:
+- **InfoSection**
+- **InfoSectionFull** : is InfoSection, Full height & children in center
+- **StoreMaps**: is InfoSection, and have custom Maps
+- **Maps**: OpenStreetMaps custom Maps component
+- **Products**: bem Layout to Left Right
+- **ProductList**: List of Products
+- **Product**: product information
 
 ### Directory Structure
 
@@ -54,9 +66,32 @@ Next Steps:
 ├── README.md
 ├── public
 └── src
+    ├── assets
+        └── img
+    ├── components
+        ├── Footer
+        ├── InfoSection
+        ├── InfoSectionFull
+        ├── Navbar
+        ├── Products
+            └── ProductList
+                └── Product
+        ├── StoreMaps
+            └── Maps
+        ├── UI
+            ├── Spinner
+            ├── NotFound
+            └── index.js
+        ├── ScrollToTop.jsx
+        └── index.js
+    ├── pages
+        ├── About
+        ├── Blog
+        ├── HomePage
+        ├── Products
+        └── Stores
     ├── App.js
-    ├── App.css
-    ├── index.css
+    ├── GlobalStyles.js
     └── index.js
 ```
 
