@@ -1,0 +1,16 @@
+export const hero = {
+	primary: true,
+	lightBg: false,
+	lightTopLine: false,
+	lightText: true,
+	lightTextDesc: true,
+	topLine: "",
+	headline: "Noor Coffee & Tea",
+	description: ".",
+	buttonLabel: "Về chúng tôi",
+	urlLinkBtn: "/about",
+	imgStart: "",
+	img: require("../../assets/img/hero.jpg"),
+	alt: "hero",
+	start: "",
+};
