@@ -3,7 +3,6 @@ export const hero = {
 	lightTopLine: false,
 	lightText: false,
 	lightTextDesc: false,
-	topLine: "Coffee Shop",
 	headline: "Noor ",
 	description: "Coffee & Tea",
 	buttonLabel: "Sản phẩm",

@@ -5,13 +5,11 @@ import {
 	InfoSec,
 	InfoRowCenter,
 	TextWrapper,
-	TopLine,
 	Heading,
 	Subtitle,
 } from "./InfoSectionFull.elements";
 const InfoSectionFull = ({
 	lightTopLine,
-	topLine,
 	lightText,
 	headline,
 	lightTextDesc,
@@ -27,7 +25,6 @@ const InfoSectionFull = ({
 				<Container>
 					<InfoRowCenter>
 						<TextWrapper>
-							<TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
 							<Heading lightText={lightText}>{headline}</Heading>
 							<Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
 							<Link to={urlLinkBtn}>
