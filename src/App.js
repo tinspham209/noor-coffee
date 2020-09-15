@@ -6,6 +6,10 @@ import GlobalStyle from "./GlobalStyles";
 import { NotFound, Spinner } from "./components/UI/";
 import ScrollToTop from "./components/ScrollToTop";
 const HomePage = React.lazy(() => import("./pages/HomePage/HomePage"));
+const Products = React.lazy(() => import("./pages/Products/Products"));
+const About = React.lazy(() => import("./pages/About/About"));
+const Blog = React.lazy(() => import("./pages/Blog/Blog"));
+const Stores = React.lazy(() => import("./pages/Stores/Stores"));
 
 function App() {
 	return (
@@ -16,6 +20,10 @@ function App() {
 				<Navbar />
 				<Switch>
 					<Route path="/" exact component={HomePage} />
+					<Route path="/products" exact component={Products} />
+					<Route path="/blog" exact component={Blog} />
+					<Route path="/stores" exact component={Stores} />
+					<Route path="/about" exact component={About} />
 					<Route component={NotFound} />
 				</Switch>
 				<Footer />
