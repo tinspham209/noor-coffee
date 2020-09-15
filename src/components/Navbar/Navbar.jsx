@@ -30,8 +30,8 @@ const Navbar = () => {
 			<IconContext.Provider value={{ color: "#fff" }}>
 				<Nav>
 					<NavbarContainer>
-						<NavLogo to="/" onClick={closeMobileMenu}>
-							<NavLogoImg src={logoImg} alt="logo" />
+						<NavLogo to="/">
+							<NavLogoImg onClick={closeMobileMenu} src={logoImg} alt="logo" />
 						</NavLogo>
 						<MobileIcon onClick={handleClick}>
 							{click ? <FaTimes /> : <FaBars />}

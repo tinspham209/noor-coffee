@@ -26,7 +26,6 @@ export const NavbarContainer = styled(Container)`
 
 export const NavLogo = styled(Link)`
 	color: #fff;
-	text-decoration: none;
 	font-size: 2rem;
 
 	display: flex;
@@ -41,7 +40,7 @@ export const NavLogoImg = styled.img`
 	border: 0;
 	vertical-align: middle;
 	display: inline-block;
-	height: 50%;
+	height: 40px;
 `;
 
 export const MobileIcon = styled.div`
