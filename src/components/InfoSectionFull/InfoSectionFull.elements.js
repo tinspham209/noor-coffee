@@ -29,19 +29,6 @@ export const TextWrapper = styled.div`
 	}
 `;
 
-export const TopLine = styled.div`
-	color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3c1" : "#4b59f7")};
-	font-size: 32px;
-	line-height: 32px;
-	font-weight: 700;
-	letter-spacing: 1.4px;
-	margin-bottom: 16px;
-
-	@media screen and (max-width: 768px) {
-		font-size: 32px;
-	}
-`;
-
 export const Heading = styled.h1`
 	margin-bottom: 24px;
 	font-size: 200px;
