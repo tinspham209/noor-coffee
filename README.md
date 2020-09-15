@@ -35,6 +35,9 @@
 7. Creating Footer
 8. Creating InfoSection
 9. Import Data to InfoSection
+10. Create Stores page
+11. Create StoreMaps component
+12. Implement OpenStreetMap to StoreMaps
 
 ### After this project
 
