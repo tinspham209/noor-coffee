@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Button } from "../../GlobalStyles";
+import { FaMapMarkedAlt } from "react-icons/fa";
 import {
 	InfoSec,
 	InfoRow,
@@ -48,7 +49,7 @@ const StoreMaps = ({
 								</Subtitle>
 								<a href={urlLinkBtn} target="_blank" rel="noopener noreferrer">
 									<Button big fontBig primary={primary}>
-										{buttonLabel}
+										<FaMapMarkedAlt /> {buttonLabel}
 									</Button>
 								</a>
 							</TextWrapper>
