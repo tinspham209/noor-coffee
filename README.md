@@ -14,6 +14,8 @@
 - react-router-dom
 - styled-components
 - react-icons
+- leaflet
+- react-leaflet
 
 ### API Used
 

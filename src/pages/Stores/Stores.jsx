@@ -1,10 +1,10 @@
 import React from "react";
-import { InfoSection } from "../../components";
-import { homeObjOne } from "./Data";
+import { StoreMaps } from "../../components";
+import { Maps } from "./Data";
 const Stores = () => {
 	return (
 		<>
-			<InfoSection {...homeObjOne} />
+			<StoreMaps {...Maps} />
 		</>
 	);
 };

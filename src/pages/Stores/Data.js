@@ -1,16 +1,15 @@
-export const homeObjOne = {
+export const Maps = {
 	primary: true,
 	lightBg: false,
 	lightTopLine: false,
 	lightText: true,
 	lightTextDesc: true,
-	topLine: "",
-	headline: "This features is developing.",
-	description: "You can use this as soon as it possible.",
+	topLine: "Noor Coffee & Tea",
+	headline: "Cửa hàng",
+	address: "30 Phan Thúc Duyện, Ngũ Hành Sơn, Đà Nẵng, Vietnam",
+	phone: "0932.535.175",
+	email: "noorcoffeedn@gmail.com",
 	buttonLabel: "Home",
 	urlLinkBtn: "/",
 	imgStart: "",
-	img: require("../../assets/img/developing.svg"),
-	alt: "developing",
-	start: "",
 };
