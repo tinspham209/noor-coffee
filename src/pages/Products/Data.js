@@ -5,7 +5,7 @@ export const homeObjOne = {
 	lightText: true,
 	lightTextDesc: true,
 	topLine: "",
-	headline: "This function is developing.",
+	headline: "This features is developing.",
 	description: "You can use this as soon as it possible.",
 	buttonLabel: "Home",
 	urlLinkBtn: "/",
