@@ -9,7 +9,7 @@ export const Maps = {
 	address: "30 Phan Thúc Duyện, Ngũ Hành Sơn, Đà Nẵng, Vietnam",
 	phone: "0932.535.175",
 	email: "noorcoffeedn@gmail.com",
-	buttonLabel: "Home",
-	urlLinkBtn: "/",
+	buttonLabel: "Get Direction",
+	urlLinkBtn: "https://goo.gl/maps/RjbWjyRfWQffz66Z8",
 	imgStart: "",
 };
