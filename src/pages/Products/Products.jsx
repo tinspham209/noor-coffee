@@ -1,10 +1,31 @@
 import React from "react";
-import { InfoSection } from "../../components";
-import { homeObjOne } from "./Data";
+import { ProductsComponent } from "../../components";
+import {
+	menuList,
+	special,
+	coffee,
+	coldbrew,
+	tea,
+	fruit,
+	macchiato,
+	mojito,
+	yogurt,
+} from "./Data";
 const Products = () => {
+	const products = [
+		{ ...special },
+		{ ...coffee },
+		{ ...coldbrew },
+		{ ...macchiato },
+		{ ...tea },
+		{ ...fruit },
+		{ ...mojito },
+		{ ...yogurt },
+	];
+
 	return (
 		<>
-			<InfoSection {...homeObjOne} />
+			<ProductsComponent menuList={menuList} products={products} />
 		</>
 	);
 };
