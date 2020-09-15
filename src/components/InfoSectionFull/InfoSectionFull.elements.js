@@ -2,36 +2,25 @@ import styled from "styled-components";
 
 export const InfoSec = styled.div`
 	color: #fff;
-	padding: 80px 0;
 	height: calc(100vh - 80px);
-	background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
+	background: ${({ urlImg }) =>
+		urlImg ? `url(${urlImg}) center center/cover no-repeat` : "#fff"};
+	display: grid;
+	place-items: center;
 `;
 
-export const InfoRow = styled.div`
-	display: flex;
+export const InfoRowCenter = styled.div`
+	display: grid;
+	place-items: center;
 	margin: 0 -15px -15px --15px;
 	flex-wrap: wrap;
-	align-items: center;
 	flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
 `;
 
-export const InfoColumn = styled.div`
-	margin-bottom: 15px;
-	padding-right: 15px;
-	padding-left: 15px;
-	flex: 1;
-	max-width: 50%;
-	flex-basis: 50%;
-
-	@media screen and (max-width: 768px) {
-		max-width: 100%;
-		flex-basis: 100%;
-		display: flex;
-		justify-content: center;
-	}
-`;
-
 export const TextWrapper = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	max-width: 540px;
 	padding-top: 0;
 	padding-bottom: 60px;
@@ -42,27 +31,40 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.div`
 	color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3c1" : "#4b59f7")};
-	font-size: 18px;
-	line-height: 16px;
+	font-size: 32px;
+	line-height: 32px;
 	font-weight: 700;
 	letter-spacing: 1.4px;
 	margin-bottom: 16px;
+
+	@media screen and (max-width: 768px) {
+		font-size: 32px;
+	}
 `;
 
 export const Heading = styled.h1`
 	margin-bottom: 24px;
-	font-size: 48px;
+	font-size: 200px;
+	text-transform: uppercase;
 	line-height: 1.1;
 	font-weight: 600;
 	color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
+
+	@media screen and (max-width: 768px) {
+		font-size: 120px;
+	}
 `;
 
 export const Subtitle = styled.p`
 	max-width: 440px;
 	margin-bottom: 35px;
-	font-size: 18px;
+	font-size: 60px;
 	line-height: 24px;
 	color: ${({ lightTextDesc }) => (lightTextDesc ? "#a9b3c1" : "#1c2237")};
+
+	@media screen and (max-width: 768px) {
+		font-size: 40px;
+	}
 `;
 
 export const ImgWrapper = styled.div`
