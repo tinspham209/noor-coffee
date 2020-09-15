@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Container, Button } from "../../GlobalStyles";
 import {
 	InfoSec,
@@ -47,11 +46,11 @@ const StoreMaps = ({
 								>
 									Email: {email}
 								</Subtitle>
-								<Link to={urlLinkBtn}>
+								<a href={urlLinkBtn} target="_blank" rel="noopener noreferrer">
 									<Button big fontBig primary={primary}>
 										{buttonLabel}
 									</Button>
-								</Link>
+								</a>
 							</TextWrapper>
 						</InfoColumn>
 						<InfoColumn>
