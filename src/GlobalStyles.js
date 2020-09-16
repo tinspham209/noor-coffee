@@ -43,6 +43,7 @@ const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
 	width: 100%;
 	max-width: 1200px;
+
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 50px;
@@ -53,25 +54,28 @@ export const Container = styled.div`
 	@media screen and (max-width: 991px) {
 		padding-right: 30px;
 		padding-left: 30px;
+
 		overflow-x: hidden;
 	} ;
 `;
 
 export const Button = styled.button`
-	border-radius: 4px;
 	background: ${({ primary }) => (primary ? "#4B59F7" : "#0467FB")};
-	white-space: nowrap;
-	padding: ${({ big }) => (big ? "12px 64px" : "10px 20px")};
 	color: #fff;
+
+	padding: ${({ big }) => (big ? "12px 64px" : "10px 20px")};
 	font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
+	border-radius: 4px;
+	white-space: nowrap;
+
 	outline: none;
-	cursor: pointer;
 	border: none;
+	cursor: pointer;
 
 	&:hover {
-		transition: all 0.3s ease-out;
 		background: #fff;
-		background: ${({ primary }) => (primary ? "#0467FB" : "#4B59F7")};
+		background-color: ${({ primary }) => (primary ? "#0467FB" : "#4B59F7")};
+		transition: all 0.3s ease-out;
 	}
 
 	@media screen and (max-width: 960px) {
