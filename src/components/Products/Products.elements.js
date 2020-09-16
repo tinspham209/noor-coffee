@@ -16,20 +16,23 @@ export const Left = styled.div``;
 export const Menu = styled.div`
 	position: fixed;
 	top: 160;
+
 	display: flex;
 	flex-direction: column;
+
 	background-color: #000;
 	border-right: 1px solid #ec8b38;
 	box-shadow: 0 10px 20px rgba(#404040, 0.15);
 `;
 
 export const MenuList = styled.ul`
-	margin: 0;
-	display: block;
 	width: 100%;
-	list-style: none;
+	display: block;
+
 	padding: 0;
 	margin: 0;
+
+	list-style: none;
 `;
 
 export const MenuItem = styled.li`
@@ -37,19 +40,23 @@ export const MenuItem = styled.li`
 `;
 
 export const ButtonItem = styled.button`
+	width: 100%;
+	display: flex;
+
 	border: none;
 	outline: none;
+
 	padding: 8px 8px;
-	text-transform: uppercase;
+	padding-right: 36px;
+
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 30px;
-	padding-right: 36px;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	color: white;
 
+	align-items: center;
+	text-transform: uppercase;
+
+	color: white;
 	background-color: black;
 
 	&:hover {
@@ -62,10 +69,12 @@ export const MenuMobile = styled.div`
 `;
 
 export const MenuMobileList = styled.ul`
-	display: flex;
-	list-style: none;
-	padding-left: 0;
 	max-width: 100%;
+	padding-left: 0;
+
+	display: flex;
+
+	list-style: none;
 	overflow-x: auto;
 
 	&::-webkit-scrollbar {
@@ -79,19 +88,22 @@ export const MenuMobileItem = styled.li`
 `;
 
 export const ButtonMobileItem = styled.button`
-	background-color: black;
-	text-transform: uppercase;
+	height: 70px;
+	width: 110px;
+	padding: 0 6px;
+
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 30px;
+
+	background-color: black;
 	color: white;
-	height: 70px;
-	text-transform: uppercase;
-	overflow: hidden;
+
 	text-align: center;
-	width: 110px;
+	text-transform: uppercase;
+
+	overflow: hidden;
 	border-radius: 5px;
-	padding: 0 6px;
 	/* Lam dau 3 cham khi qua 2 dong */
 	display: block;
 	display: -webkit-box;
