@@ -42,18 +42,21 @@ export const SocialLogo = styled(Link)`
 `;
 
 export const LogoImg = styled.img`
-	padding-right: 0;
-	border: 0;
-	vertical-align: middle;
-	display: inline-block;
 	height: 40px;
+
+	border: 0;
+	padding-right: 0;
+
+	display: inline-block;
+	vertical-align: middle;
 `;
 
 export const WebsiteRights = styled.div`
+	margin: 16px 0;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 16px 0;
 
 	@media screen and (max-width: 820px) {
 		flex-direction: column;

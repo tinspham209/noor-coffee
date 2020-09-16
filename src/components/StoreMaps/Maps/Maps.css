@@ -2,10 +2,13 @@
 	overflow: hidden;
 	height: 500px;
 	width: 100%;
+
 	background-color: white;
+
 	padding: 1rem;
-	border-radius: 20px;
 	margin-top: 16px;
+
+	border-radius: 20px;
 	-webkit-box-shadow: 2px 0px 50px 20px rgba(120, 119, 120, 1);
 	-moz-box-shadow: 2px 0px 50px 20px rgba(120, 119, 120, 1);
 	box-shadow: 2px 0px 50px 20px rgba(120, 119, 120, 1);
@@ -23,11 +26,12 @@
 	border-radius: 8px;
 }
 .info__logo img {
+	display: inline-block;
+	height: 40px;
+
 	padding-right: 0;
 	border: 0;
 	vertical-align: middle;
-	display: inline-block;
-	height: 40px;
 }
 
 .info__name {

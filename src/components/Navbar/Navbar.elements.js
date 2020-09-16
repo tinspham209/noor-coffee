@@ -36,11 +36,13 @@ export const NavLogo = styled(Link)`
 `;
 
 export const NavLogoImg = styled.img`
-	padding-right: 0;
-	border: 0;
-	vertical-align: middle;
-	display: inline-block;
 	height: 40px;
+	border: 0;
+
+	padding-right: 0;
+
+	display: inline-block;
+	vertical-align: middle;
 `;
 
 export const MobileIcon = styled.div`
@@ -62,7 +64,6 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
 	display: flex;
 	align-items: center;
-	list-style: none;
 	text-align: center;
 
 	@media screen and (max-width: 960px) {
@@ -101,8 +102,10 @@ export const NavItem = styled.li`
 
 export const NavLinks = styled(Link)`
 	height: 100%;
+
 	text-decoration: none;
 	text-transform: uppercase;
+
 	color: #fff;
 	padding: 0.5rem 1rem;
 
