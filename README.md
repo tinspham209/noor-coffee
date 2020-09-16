@@ -1,29 +1,18 @@
-# Mini Project: Noor Coffee Website
+# Project: Noor Coffee Website
 
-## Date: 7 - Sep - 2020
+### Date: Sep - 2020
 
 ### Functions
 
+- Design website for my coffee shop in Danang 😙
+
 ### Screenshot
 
-- <img src="" alt=""/>
+<img src="" alt="chua-lam-xong-oke?"/>
 
-### Tech-Stack
+### Releases
 
-- React Hooks
-- react-router-dom
-- react-router-hash-link
-- styled-components
-- react-icons
-- leaflet
-- react-leaflet
-
-### API Used
-
-### Deploy
-
-- [Live Site](link)
-- [Live Server](link)
+- https://noordn.cf
 
 ### Plan Of Action
 
@@ -40,22 +29,15 @@
 11. Create StoreMaps component
 12. Create Maps component
 13. Implement OpenStreetMap to StoreMaps
-14. Import Data to Stores page
-15. Create Products page
-16. Create Products component
-17. Create ProductList component
-18. Create Product component
-19. Import Data to Products page
-
-### Components function:
-
-- **InfoSection**
-- **InfoSectionFull** : is InfoSection, Full height & children in center
-- **StoreMaps**: is InfoSection, and have custom Maps
-- **Maps**: OpenStreetMaps custom Maps component
-- **Products**: bem Layout to Left Right
-- **ProductList**: List of Products
-- **Product**: product information
+14. Deploy to Firebase
+15. Add custom domain
+16. Add SSL certification for domain
+17. Import Data to Stores page
+18. Create Products page
+19. Create Products component
+20. Create ProductList component
+21. Create Product component
+22. Import Data to Products page
 
 ### Directory Structure
 
@@ -95,22 +77,99 @@
     └── index.js
 ```
 
-### Set up
+For the project to build, these must exist with exact filenames:
 
-Use the cmd line to clone repo to your computer
+- `public/index.html` is the page template
+- `src/index.js` is the entry point
+- `src/GlobalStyles.js` is the Global Styles
+- `src/App.js` is the Router
+
+## Installation Guide
+
+### Tech-Stack
+
+- React Hooks
+- react-router-dom
+- react-router-hash-link
+- styled-components
+- react-icons
+- leaflet
+- react-leaflet
+
+### Production
+
+- Clone this project
 
 ```
-git clone [github_repo_url]
+git clone https://github.com/tinspham209/noor-coffee
 ```
 
-Use the cmd line to install dependencies.
+- Install dependencies
 
 ```
 npm install
 ```
 
-Run in cmd for start the dependencies server
+- Start the server
 
 ```
 npm start
+```
+
+### Development
+
+- Clone this project
+- Install dependencies
+
+```
+npm install
+```
+
+- Start packager
+
+```
+npm start
+```
+
+### Components function:
+
+- **InfoSection**
+- **InfoSectionFull** : is InfoSection, Full height & children in center
+- **StoreMaps**: is InfoSection, and have custom Maps
+- **Maps**: OpenStreetMaps custom Maps component
+- **Products**: bem Layout to Left Right
+- **ProductList**: List of Products
+- **Product**: product information
+
+### How to name a folder and a file
+
+- Folder name: - Ex: `InfoSection`
+- Component file name: should be -- Ex: `InfoSection.jsx`
+- Style component file name: should be -- Ex: `InfoSection.elements.js`
+
+### How to style for each component?
+
+- Create a styled-component file. Ex: `InfoSection.elements.js`
+- Import to `jsx` file
+
+```
+InfoSection.jsx
+
+import { InfoSec, InfoRow } from "./InfoSection.elements";
+```
+
+### How to import and export module?
+
+- Import:
+
+```
+//import every thing
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+
+//for default export
+import InfoSection from './InfoSection'
+
+//for named export
+import { InfoSec, InfoRow } from "./InfoSection.elements";
 ```
