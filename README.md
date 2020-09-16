@@ -38,6 +38,7 @@
 20. Create ProductList component
 21. Create Product component
 22. Import Data to Products page
+23. LazyLoad image products
 
 ### Directory Structure
 
@@ -95,6 +96,7 @@ For the project to build, these must exist with exact filenames:
 - react-icons
 - leaflet
 - react-leaflet
+- react-lazy-load-image-component
 
 ### Production
 
