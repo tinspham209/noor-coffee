@@ -1,21 +1,18 @@
 import styled from "styled-components";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export const Card = styled.div`
 	margin: 5px;
 	background-color: white;
 	border-radius: 10px;
 	padding: 1em;
-	-webkit-box-shadow: 17px -12px 23px 6px rgba(99, 99, 99, 1);
-	-moz-box-shadow: 17px -12px 23px 6px rgba(99, 99, 99, 1);
-	box-shadow: 17px -12px 23px 6px rgba(99, 99, 99, 1);
+
 	text-align: center;
 
 	height: auto;
 	display: grid;
 	grid-gap: 1rem;
 	grid-template-columns: repeat(1, 1fr);
-
-	position: relative;
 `;
 
 export const CardTitle = styled.div`
@@ -30,9 +27,10 @@ export const CardImage = styled.div`
 	max-width: 100%;
 	max-height: 100%;
 	border-radius: 5px;
+	position: relative;
 `;
 
-export const Img = styled.img`
+export const Img = styled(LazyLoadImage)`
 	padding-right: 0;
 	border: 0;
 	max-width: 100%;
@@ -46,6 +44,9 @@ export const TrendLabel = styled.span`
 	content: "";
 	color: #fff;
 	background-color: #ec8b38;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	font-size: 18px;
 	line-height: 35px;
 	font-weight: 700;
@@ -54,7 +55,26 @@ export const TrendLabel = styled.span`
 	padding: 0 7px;
 	position: absolute;
 	top: 30px;
-	left: 0px;
+	left: -16px;
+	z-index: 3;
+`;
+
+export const NewLabel = styled.span`
+	content: "";
+	color: #fff;
+	background-color: #ee5375;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size: 18px;
+	line-height: 35px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 7px;
+	position: absolute;
+	bottom: 30px;
+	right: -16px;
 	z-index: 3;
 `;
 

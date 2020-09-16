@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
+import { FaAngellist } from "react-icons/fa";
 import { AiOutlineLike } from "react-icons/ai";
 import {
 	Card,
@@ -7,6 +10,7 @@ import {
 	CardImage,
 	Img,
 	TrendLabel,
+	NewLabel,
 	CardTitle,
 	Button,
 } from "./Product.elements";
@@ -18,18 +22,24 @@ const Product = ({
 	urlLinkBtn,
 	buttonLabel,
 	trend,
+	newProduct,
 }) => {
 	return (
 		<>
 			<Card>
 				<CardImage>
-					<Img src={img} />
+					<Img effect="blur" src={img} />
+					{newProduct && (
+						<NewLabel>
+							new <FaAngellist />
+						</NewLabel>
+					)}
+					{trend && (
+						<TrendLabel>
+							<AiOutlineLike /> Bán chạy nhất
+						</TrendLabel>
+					)}
 				</CardImage>
-				{trend && (
-					<TrendLabel>
-						<AiOutlineLike /> Bán chạy nhất
-					</TrendLabel>
-				)}
 				<CardTitle lightTextCard={lightTextCard}>{cardTitle}</CardTitle>
 				<CardDescription>{description}</CardDescription>
 				<Link to={urlLinkBtn}>
