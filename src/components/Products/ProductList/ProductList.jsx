@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 import Product from "./Product/Product";
 import { Products, Headline, HeadlineTitle } from "./ProductList.elements";
 const ProductList = ({
@@ -8,8 +9,21 @@ const ProductList = ({
 	headlineName,
 	products,
 }) => {
+	const myRef = useRef(null);
+	const location = useLocation();
+	console.log("products", products);
+	useEffect(() => {
+		if (myRef && location.hash.includes(`${id}`)) {
+			myRef.current.scrollIntoView({
+				behavior: "smooth",
+				block: "start",
+				inline: "center",
+			});
+		}
+	}, [myRef, location.hash, id]);
+
 	return (
-		<div id={id}>
+		<div id={id} ref={myRef}>
 			<Headline>
 				<HeadlineTitle lightText={lightText}>{headlineName}</HeadlineTitle>
 			</Headline>
