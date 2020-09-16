@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import { Link } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import { Container } from "../../GlobalStyles";
 import {
 	Background,
@@ -21,10 +20,11 @@ import ProductList from "./ProductList/ProductList";
 const ProductsComponent = ({ menuList, products }) => {
 	const [checkMobileWidth, setCheckMobileWidth] = useState(false);
 	useEffect(() => {
-		if (window.innerWidth <= 450) {
+		if (window.innerWidth <= 500) {
 			setCheckMobileWidth(true);
 		}
 	}, []);
+
 	return (
 		<Background lightBg={products[0].lightBg}>
 			<Container>
