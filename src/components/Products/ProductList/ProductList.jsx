@@ -8,6 +8,7 @@ const ProductList = ({
 	headlineName,
 	products,
 }) => {
+	console.log("products", products);
 	return (
 		<div id={id}>
 			<Headline>
@@ -25,6 +26,7 @@ const ProductList = ({
 							urlLinkBtn={product.urlLinkBtn}
 							buttonLabel={product.buttonLabel}
 							trend={product.trend}
+							newProduct={product.newProduct}
 						/>
 					);
 				})}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-router-dom";
+// import { HashLink as Link } from "react-router-hash-link";
 import { Container } from "../../GlobalStyles";
 import {
 	Background,
@@ -35,7 +36,6 @@ const ProductsComponent = ({ menuList, products }) => {
 									return (
 										<MenuMobileItem key={index}>
 											<Link
-												smooth
 												to={{
 													pathname: "/products",
 													hash: `${item.id}`,
@@ -71,7 +71,6 @@ const ProductsComponent = ({ menuList, products }) => {
 										return (
 											<MenuItem key={index}>
 												<Link
-													smooth
 													to={{
 														pathname: "/products",
 														hash: `${item.id}`,
