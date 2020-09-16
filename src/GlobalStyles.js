@@ -28,6 +28,17 @@ const GlobalStyle = createGlobalStyle`
   ::-webkit-scrollbar-thumb:window-inactive {
     background: rgba(0,0,0,0.4); 
   }
+
+	a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+	}
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
 `;
 
 export const Container = styled.div`
