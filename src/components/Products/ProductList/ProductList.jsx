@@ -8,7 +8,6 @@ const ProductList = ({
 	headlineName,
 	products,
 }) => {
-	console.log("products", products);
 	return (
 		<div id={id}>
 			<Headline>
