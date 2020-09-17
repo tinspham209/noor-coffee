@@ -6,12 +6,13 @@ const ProductList = ({
 	id,
 	lightText,
 	lightTextCard,
+	buttonLabel,
+	productList,
 	headlineName,
-	products,
 }) => {
 	const myRef = useRef(null);
 	const location = useLocation();
-	console.log("products", products);
+
 	useEffect(() => {
 		if (myRef && location.hash.includes(`${id}`)) {
 			myRef.current.scrollIntoView({
@@ -28,7 +29,7 @@ const ProductList = ({
 				<HeadlineTitle lightText={lightText}>{headlineName}</HeadlineTitle>
 			</Headline>
 			<Products>
-				{products.map((product, index) => {
+				{productList.map((product, index) => {
 					return (
 						<Product
 							key={index}
@@ -37,7 +38,7 @@ const ProductList = ({
 							img={product.img}
 							description={product.description}
 							urlLinkBtn={product.urlLinkBtn}
-							buttonLabel={product.buttonLabel}
+							buttonLabel={buttonLabel}
 							trend={product.trend}
 							newProduct={product.newProduct}
 						/>

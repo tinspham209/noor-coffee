@@ -18,7 +18,7 @@ export const Card = styled.div`
 `;
 
 export const CardTitle = styled.div`
-	color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
+	color: ${({ lightTextCard }) => (lightTextCard ? "#f7f8fa" : "#1c2237")};
 
 	font-size: 24px;
 	font-weight: bold;
@@ -39,6 +39,7 @@ export const CardImage = styled.div`
 export const Img = styled(LazyLoadImage)`
 	padding-right: 0;
 	border: 0;
+	border-radius: 5px;
 
 	vertical-align: middle;
 	display: inline-block;

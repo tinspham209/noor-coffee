@@ -17,7 +17,15 @@ import {
 } from "./Products.elements";
 import ProductList from "./ProductList/ProductList";
 
-const ProductsComponent = ({ menuList, products }) => {
+const ProductsComponent = ({ products }) => {
+	const {
+		lightBg,
+		lightText,
+		lightTextCard,
+		buttonLabel,
+		productList,
+	} = products;
+
 	const [checkMobileWidth, setCheckMobileWidth] = useState(false);
 	useEffect(() => {
 		if (window.innerWidth <= 500) {
@@ -25,81 +33,78 @@ const ProductsComponent = ({ menuList, products }) => {
 		}
 	}, []);
 
-	return (
-		<Background lightBg={products[0].lightBg}>
-			<Container>
-				{checkMobileWidth ? (
-					<div>
-						<MenuMobile>
-							<MenuMobileList>
-								{menuList.map((item, index) => {
-									return (
-										<MenuMobileItem key={index}>
-											<Link
-												to={{
-													pathname: "/products",
-													hash: `${item.id}`,
-												}}
-											>
-												<ButtonMobileItem>{item.name}</ButtonMobileItem>
-											</Link>
-										</MenuMobileItem>
-									);
-								})}
-							</MenuMobileList>
-						</MenuMobile>
-						{products.map((product, index) => {
+	const productListComponent = (products, index) => (
+		<ProductList
+			key={index}
+			lightText={lightText}
+			lightTextCard={lightTextCard}
+			buttonLabel={buttonLabel}
+			id={products.id}
+			headlineName={products.headlineName}
+			productList={products.products}
+		/>
+	);
+
+	const mobileComponent = (
+		<div>
+			<MenuMobile>
+				<MenuMobileList>
+					{productList.map((item, index) => {
+						return (
+							<MenuMobileItem key={index}>
+								<Link
+									to={{
+										pathname: "/products",
+										hash: `${item.id}`,
+									}}
+								>
+									<ButtonMobileItem>{item.headlineName}</ButtonMobileItem>
+								</Link>
+							</MenuMobileItem>
+						);
+					})}
+				</MenuMobileList>
+			</MenuMobile>
+			{productList.map((products, index) => {
+				return productListComponent(products, index);
+			})}
+		</div>
+	);
+
+	const mediumScreenComponent = (
+		<Products>
+			<Left>
+				<Menu>
+					<MenuList>
+						{productList.map((item, index) => {
 							return (
-								<div key={index}>
-									<ProductList
-										id={product.id}
-										lightText={product.lightText}
-										lightTextCard={product.lightTextCard}
-										headlineName={product.headlineName}
-										products={product.products}
-									/>
-								</div>
+								<MenuItem key={index}>
+									<Link
+										to={{
+											pathname: "/products",
+											hash: `${item.id}`,
+										}}
+									>
+										<ButtonItem>{item.headlineName}</ButtonItem>
+									</Link>
+								</MenuItem>
 							);
 						})}
-					</div>
-				) : (
-					<Products>
-						<Left>
-							<Menu>
-								<MenuList>
-									{menuList.map((item, index) => {
-										return (
-											<MenuItem key={index}>
-												<Link
-													to={{
-														pathname: "/products",
-														hash: `${item.id}`,
-													}}
-												>
-													<ButtonItem>{item.name}</ButtonItem>
-												</Link>
-											</MenuItem>
-										);
-									})}
-								</MenuList>
-							</Menu>
-						</Left>
-						<Right>
-							{products.map((product, index) => {
-								return (
-									<ProductList
-										key={index}
-										id={product.id}
-										lightText={product.lightText}
-										lightTextCard={product.lightTextCard}
-										headlineName={product.headlineName}
-										products={product.products}
-									/>
-								);
-							})}
-						</Right>
-					</Products>
-				)}
+					</MenuList>
+				</Menu>
+			</Left>
+			<Right>
+				{productList.map((products, index) => {
+					return productListComponent(products, index);
+				})}
+			</Right>
+		</Products>
+	);
+
+	return (
+		<Background lightBg={lightBg}>
+			<Container>
+				{checkMobileWidth ? mobileComponent : mediumScreenComponent}
 			</Container>
 		</Background>
 	);
