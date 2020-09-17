@@ -1,11 +1,13 @@
 import React from "react";
-import { InfoSectionFull } from "../../components";
+import { InfoSectionFull, StoreMaps } from "../../components";
 import { hero } from "./Data";
+import { Maps } from "../Stores/Data";
 
 const HomePage = () => {
 	return (
 		<>
 			<InfoSectionFull {...hero} />
+			<StoreMaps {...Maps} />
 		</>
 	);
 };
