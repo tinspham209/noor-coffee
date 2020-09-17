@@ -66,7 +66,7 @@ export const TrendLabel = styled.span`
 	text-transform: uppercase;
 
 	position: absolute;
-	top: 30px;
+	top: 8px;
 	left: -16px;
 	z-index: 3;
 `;
@@ -90,7 +90,7 @@ export const NewLabel = styled.span`
 	text-transform: uppercase;
 
 	position: absolute;
-	bottom: 30px;
+	bottom: 8px;
 	right: -16px;
 	z-index: 3;
 `;
