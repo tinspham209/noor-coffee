@@ -5,7 +5,7 @@ export const hero = {
 	lightTextDesc: false,
 	headline: "Noor ",
 	description: "Coffee & Tea",
-	buttonLabel: "Cửa hàng",
-	urlLinkBtn: "/stores",
+	buttonLabel: "Sản phẩm",
+	urlLinkBtn: "/products",
 	urlImg: require("../../assets/img/hangout.svg"),
 };
