@@ -11,8 +11,6 @@ export const InfoSec = styled.div`
 `;
 
 export const InfoRowCenter = styled.div`
-	margin: 0 -15px -15px --15px;
-
 	display: grid;
 	place-items: center;
 

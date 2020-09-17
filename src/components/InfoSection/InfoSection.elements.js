@@ -7,7 +7,6 @@ export const InfoSec = styled.div`
 `;
 
 export const InfoRow = styled.div`
-	margin: 0 -15px -15px -15px;
 	align-items: center;
 
 	display: flex;

@@ -7,12 +7,17 @@ export const InfoSec = styled.div`
 `;
 
 export const InfoRow = styled.div`
-	margin: 0 -15px -15px -15px;
+	/* padding: 0 5px 5px 5px; */
+	/* margin: 0 -15px -15px -15px; */
 	align-items: center;
 
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
+
+	@media screen and (max-width: 768px) {
+		padding-bottom: 40px;
+	}
 `;
 
 export const InfoColumn = styled.div`
