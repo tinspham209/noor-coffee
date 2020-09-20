@@ -1,6 +1,10 @@
 import React from "react";
-import { InfoSectionFull, StoreMaps } from "../../components";
-import { hero } from "./Data";
+import {
+	InfoSectionFull,
+	StoreMaps,
+	ProductsComponent,
+} from "../../components";
+import { hero, special } from "./Data";
 import { Maps } from "../Stores/Data";
 
 const HomePage = () => {
@@ -8,6 +12,7 @@ const HomePage = () => {
 		<>
 			<InfoSectionFull {...hero} />
 			<StoreMaps {...Maps} />
+			<ProductsComponent products={special} />
 		</>
 	);
 };

@@ -35,9 +35,7 @@ export const MenuList = styled.ul`
 	list-style: none;
 `;
 
-export const MenuItem = styled.li`
-	position: relative;
-`;
+export const MenuItem = styled.li``;
 
 export const ButtonItem = styled.button`
 	width: 100%;
