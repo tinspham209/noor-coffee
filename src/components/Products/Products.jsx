@@ -42,6 +42,8 @@ const ProductsComponent = ({ products }) => {
 			id={products.id}
 			headlineName={products.headlineName}
 			productList={products.products}
+			headlineBtn={products.headlineBtn}
+			headlineButtonName={products.headlineButtonName}
 		/>
 	);
 

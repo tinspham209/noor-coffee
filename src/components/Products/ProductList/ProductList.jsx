@@ -1,7 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import Product from "./Product/Product";
-import { Products, Headline, HeadlineTitle } from "./ProductList.elements";
+import {
+	Products,
+	Headline,
+	HeadlineTitle,
+	HeadlineBtn,
+	HeadlineBtnLink,
+} from "./ProductList.elements";
+import { Button } from "../../../GlobalStyles";
 const ProductList = ({
 	id,
 	lightText,
@@ -9,6 +16,8 @@ const ProductList = ({
 	buttonLabel,
 	productList,
 	headlineName,
+	headlineBtn,
+	headlineButtonName,
 }) => {
 	const myRef = useRef(null);
 	const location = useLocation();
@@ -27,6 +36,15 @@ const ProductList = ({
 		<div id={id} ref={myRef}>
 			<Headline>
 				<HeadlineTitle lightText={lightText}>{headlineName}</HeadlineTitle>
+				{headlineBtn ? (
+					<HeadlineBtn>
+						<HeadlineBtnLink to="/products">
+							<Button primary fontBig>
+								{headlineButtonName}
+							</Button>
+						</HeadlineBtnLink>
+					</HeadlineBtn>
+				) : null}
 			</Headline>
 			<Products>
 				{productList.map((product, index) => {
