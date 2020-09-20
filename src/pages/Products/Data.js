@@ -7,6 +7,7 @@ export const products = {
 		{
 			id: "special",
 			headlineName: "Nổi bật",
+
 			products: [
 				{
 					cardTitle: "Cà phê Quế",
@@ -211,7 +212,7 @@ export const products = {
 		},
 		{
 			id: "macchiato",
-			headlineName: "trà sữa macchiato",
+			headlineName: "macchiato",
 			products: [
 				{
 					cardTitle: "trà đen macchiato",
@@ -243,6 +244,13 @@ export const products = {
 				},
 				{
 					cardTitle: "trà atiso macchiato",
+					img: require("../../assets/img/products/ca-phe-sua.jpg"),
+					description: "25.000Đ",
+
+					urlLinkBtn: "/products",
+				},
+				{
+					cardTitle: "cold brew sữa tươi macchiato",
 					img: require("../../assets/img/products/ca-phe-sua.jpg"),
 					description: "25.000Đ",
 
@@ -313,7 +321,7 @@ export const products = {
 		},
 		{
 			id: "fruit",
-			headlineName: "thức uống trái cây",
+			headlineName: "nước trái cây",
 			products: [
 				{
 					cardTitle: "nước cam",
