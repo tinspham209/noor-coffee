@@ -39,6 +39,8 @@
 21. Create Product component
 22. Import Data to Products page
 23. LazyLoad image products
+24. Add StoreMaps to homepage
+25. Add Products Special to homepage
 
 ### Directory Structure
 

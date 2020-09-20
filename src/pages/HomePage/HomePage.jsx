@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
 	InfoSectionFull,
 	StoreMaps,
@@ -8,6 +8,9 @@ import { hero, special } from "./Data";
 import { Maps } from "../Stores/Data";
 
 const HomePage = () => {
+	useEffect(() => {
+		document.title = "Noor - Coffee & Tea";
+	}, []);
 	return (
 		<>
 			<InfoSectionFull {...hero} />
