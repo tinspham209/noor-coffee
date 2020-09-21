@@ -24,7 +24,7 @@ export const special = {
 			products: [
 				{
 					cardTitle: "Cà phê Quế",
-					img: require("../../assets/img/products/ca-phe-sua.jpg"),
+					img: require("../../assets/img/products/cf-que.jpg"),
 					description: "25.000Đ",
 
 					urlLinkBtn: "/products",
@@ -32,38 +32,36 @@ export const special = {
 					newProduct: true,
 				},
 				{
-					cardTitle: "Bạc xỉu",
-					img: require("../../assets/img/products/ca-phe-sua.jpg"),
-					description: "25.000Đ",
-
-					urlLinkBtn: "/products",
-					trend: true,
-				},
-				{
-					cardTitle: "trà đen macchiato",
-					img: require("../../assets/img/products/ca-phe-sua.jpg"),
-					description: "25.000Đ",
-
-					urlLinkBtn: "/products",
-					newProduct: true,
-				},
-				{
-					cardTitle: "Trà thạch vải",
-					img: require("../../assets/img/products/ca-phe-sua.jpg"),
+					cardTitle: "trà atiso macchiato",
+					img: require("../../assets/img/products/macchiato-tra-atiso.jpg"),
 					description: "25.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
-					cardTitle: "trà tắc xí muội",
-					img: require("../../assets/img/products/ca-phe-sua.jpg"),
+					cardTitle: "Sữa chua việt quốc hạt chia ",
+					img: require("../../assets/img/products/yogurt-hat-chia-viet-quoc.jpg"),
 					description: "25.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
-					cardTitle: "nước chanh xí muội",
-					img: require("../../assets/img/products/ca-phe-sua.jpg"),
+					cardTitle: "trà hoa đậu biếc macchiato",
+					img: require("../../assets/img/products/macchiato-hoa-dau-biet.jpg"),
+					description: "25.000Đ",
+
+					urlLinkBtn: "/products",
+				},
+				{
+					cardTitle: "nước ép củ dền",
+					img: require("../../assets/img/products/fruit-cu-den.jpg"),
+					description: "25.000Đ",
+
+					urlLinkBtn: "/products",
+				},
+				{
+					cardTitle: "cold brew cam vàng",
+					img: require("../../assets/img/products/coldbrew-cam-vang-outside.jpg"),
 					description: "25.000Đ",
 
 					urlLinkBtn: "/products",
