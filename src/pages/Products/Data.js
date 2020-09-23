@@ -26,7 +26,7 @@ export const products = {
 					urlLinkBtn: "/products",
 				},
 				{
-					cardTitle: "Sữa chua việt quốc hạt chia ",
+					cardTitle: "Sữa chua việt quất hạt chia ",
 					img: require("../../assets/img/products/yogurt-hat-chia-viet-quoc.jpg"),
 					description: "25.000Đ",
 
@@ -165,6 +165,13 @@ export const products = {
 					urlLinkBtn: "/products",
 				},
 				{
+					cardTitle: "Trà sen vàng",
+					img: require("../../assets/img/no-img.png"),
+					description: "25.000Đ",
+
+					urlLinkBtn: "/products",
+				},
+				{
 					cardTitle: "trà tắc xí muội",
 					img: require("../../assets/img/no-img.png"),
 					description: "25.000Đ",
@@ -275,7 +282,7 @@ export const products = {
 					urlLinkBtn: "/products",
 				},
 				{
-					cardTitle: "mojito việt quốc",
+					cardTitle: "mojito việt quất",
 					img: require("../../assets/img/no-img.png"),
 					description: "25.000Đ",
 
@@ -330,7 +337,7 @@ export const products = {
 					urlLinkBtn: "/products",
 				},
 				{
-					cardTitle: "Sữa chua việt quốc hạt chia ",
+					cardTitle: "Sữa chua việt quất hạt chia ",
 					img: require("../../assets/img/products/yogurt-hat-chia-viet-quoc.jpg"),
 					description: "25.000Đ",
 

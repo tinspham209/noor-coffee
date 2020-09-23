@@ -45,22 +45,8 @@ export const special = {
 				urlLinkBtn: "/products",
 			},
 			{
-				cardTitle: "trà hoa đậu biếc macchiato",
-				img: require("../../assets/img/products/macchiato-hoa-dau-biet.jpg"),
-				description: "25.000Đ",
-
-				urlLinkBtn: "/products",
-			},
-			{
 				cardTitle: "nước ép củ dền",
 				img: require("../../assets/img/products/fruit-cu-den.jpg"),
-				description: "25.000Đ",
-
-				urlLinkBtn: "/products",
-			},
-			{
-				cardTitle: "cold brew cam vàng",
-				img: require("../../assets/img/products/coldbrew-cam-vang-outside.jpg"),
 				description: "25.000Đ",
 
 				urlLinkBtn: "/products",
