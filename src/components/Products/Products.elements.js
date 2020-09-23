@@ -11,18 +11,22 @@ export const Products = styled.div`
 	grid-template-columns: minmax(150px, 20%) 1fr;
 `;
 
-export const Left = styled.div``;
+export const Right = styled.div`
+	margin-left: 30px;
+`;
+
+export const Left = styled.div`
+	border-right: 2px solid #ec8b38;
+`;
 
 export const Menu = styled.div`
 	position: fixed;
 	top: 160;
 
+	background-color: #000;
+
 	display: flex;
 	flex-direction: column;
-
-	background-color: #000;
-	border-right: 1px solid #ec8b38;
-	box-shadow: 0 10px 20px rgba(#404040, 0.15);
 `;
 
 export const MenuList = styled.ul`
@@ -31,11 +35,11 @@ export const MenuList = styled.ul`
 
 	padding: 0;
 	margin: 0;
-
-	list-style: none;
 `;
 
-export const MenuItem = styled.li``;
+export const MenuItem = styled.li`
+	width: 100%;
+`;
 
 export const ButtonItem = styled.button`
 	width: 100%;
@@ -114,8 +118,4 @@ export const ButtonMobileItem = styled.button`
 
 	/* tat highlight khi click vao tren mobile */
 	-webkit-tap-highlight-color: transparent;
-`;
-
-export const Right = styled.div`
-	margin-left: 30px;
 `;
