@@ -5,7 +5,6 @@ import GlobalStyle from "./GlobalStyles";
 
 import { NotFound, Spinner } from "./components/UI/";
 import ScrollToTop from "./components/ScrollToTop";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
 const HomePage = React.lazy(() => import("./pages/HomePage/HomePage"));
 const Products = React.lazy(() => import("./pages/Products/Products"));
 const About = React.lazy(() => import("./pages/About/About"));
@@ -19,18 +18,14 @@ function App() {
 				<GlobalStyle />
 				<ScrollToTop />
 				<Navbar />
-				<TransitionGroup>
-					<CSSTransition timeout={300} classNames="fade">
-						<Switch>
-							<Route path="/" exact component={HomePage} />
-							<Route path="/products" exact component={Products} />
-							<Route path="/blog" exact component={Blog} />
-							<Route path="/stores" exact component={Stores} />
-							<Route path="/about" exact component={About} />
-							<Route component={NotFound} />
-						</Switch>
-					</CSSTransition>
-				</TransitionGroup>
+				<Switch>
+					<Route path="/" exact component={HomePage} />
+					<Route path="/products" exact component={Products} />
+					<Route path="/blog" exact component={Blog} />
+					<Route path="/stores" exact component={Stores} />
+					<Route path="/about" exact component={About} />
+					<Route component={NotFound} />
+				</Switch>
 				<Footer />
 			</Router>
 		</Suspense>
