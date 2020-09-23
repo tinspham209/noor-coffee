@@ -206,6 +206,13 @@ export const products = {
 
 					urlLinkBtn: "/products",
 				},
+				{
+					cardTitle: "trà gừng",
+					img: require("../../assets/img/no-img.png"),
+					description: "25.000Đ",
+
+					urlLinkBtn: "/products",
+				},
 			],
 		},
 		{
@@ -385,7 +392,7 @@ export const products = {
 					urlLinkBtn: "/products",
 				},
 				{
-					cardTitle: "nước ép dưa hấu",
+					cardTitle: "nước ép cà chua",
 					img: require("../../assets/img/products/fruit-dua-hau.jpg"),
 					description: "25.000Đ",
 
