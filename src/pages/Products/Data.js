@@ -241,7 +241,7 @@ export const products = {
 					urlLinkBtn: "/products",
 				},
 				{
-					cardTitle: "trà xanh macchiato",
+					cardTitle: "Matcha macchiato",
 					img: require("../../assets/img/products/macchiato-tra-xanh.jpg"),
 					description: "25.000Đ",
 
