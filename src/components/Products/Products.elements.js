@@ -20,10 +20,7 @@ export const Left = styled.div`
 `;
 
 export const Menu = styled.div`
-	position: fixed;
-	top: 160;
-
-	background-color: #000;
+	z-index: 99;
 
 	display: flex;
 	flex-direction: column;
@@ -48,8 +45,7 @@ export const ButtonItem = styled.button`
 	border: none;
 	outline: none;
 
-	padding: 8px 8px;
-	padding-right: 36px;
+	padding: 12px 12px;
 
 	font-size: 18px;
 	font-weight: 700;
@@ -59,7 +55,7 @@ export const ButtonItem = styled.button`
 	text-transform: uppercase;
 
 	color: white;
-	background-color: black;
+	background-color: #000;
 
 	&:hover {
 		background-color: rgba(255, 255, 255, 0.1);
@@ -77,11 +73,7 @@ export const MenuMobileList = styled.ul`
 	display: flex;
 
 	list-style: none;
-	overflow-x: auto;
-
-	&::-webkit-scrollbar {
-		display: none;
-	}
+	overflow-x: scroll;
 `;
 
 export const MenuMobileItem = styled.li`
@@ -92,7 +84,7 @@ export const MenuMobileItem = styled.li`
 export const ButtonMobileItem = styled.button`
 	height: 70px;
 	width: 110px;
-	padding: 0 6px;
+	/* padding: 0 6px; */
 
 	font-size: 18px;
 	font-weight: 700;
@@ -106,6 +98,7 @@ export const ButtonMobileItem = styled.button`
 
 	overflow: hidden;
 	border-radius: 5px;
+
 	/* Lam dau 3 cham khi qua 2 dong */
 	display: block;
 	display: -webkit-box;

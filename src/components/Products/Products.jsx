@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import StickyBox from "react-sticky-box/dist/esnext";
 import { Container } from "../../GlobalStyles";
 import {
 	Background,
@@ -76,24 +77,26 @@ const ProductsComponent = ({ products }) => {
 	const mediumScreenComponent = (
 		<Products>
 			<Left>
-				<Menu>
-					<MenuList>
-						{productList.map((item, index) => {
-							return (
-								<MenuItem key={index}>
-									<Link
-										to={{
-											pathname: "/products",
-											hash: `${item.id}`,
-										}}
-									>
-										<ButtonItem>{item.headlineName}</ButtonItem>
-									</Link>
-								</MenuItem>
-							);
-						})}
-					</MenuList>
-				</Menu>
+				<StickyBox offsetTop={80}>
+					<Menu>
+						<MenuList>
+							{productList.map((item, index) => {
+								return (
+									<MenuItem key={index}>
+										<Link
+											to={{
+												pathname: "/products",
+												hash: `${item.id}`,
+											}}
+										>
+											<ButtonItem>{item.headlineName}</ButtonItem>
+										</Link>
+									</MenuItem>
+								);
+							})}
+						</MenuList>
+					</Menu>
+				</StickyBox>
 			</Left>
 			<Right>
 				{productList.map((products, index) => {
