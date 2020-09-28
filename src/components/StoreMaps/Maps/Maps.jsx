@@ -1,5 +1,11 @@
 import React from "react";
-import { Map as LeafletMap, TileLayer, Marker, Popup } from "react-leaflet";
+import {
+	Map as LeafletMap,
+	TileLayer,
+	Marker,
+	Popup,
+	Tooltip,
+} from "react-leaflet";
 import "./Maps.css";
 import "leaflet/dist/leaflet.css";
 import { iconNoor } from "./IconMarker";
@@ -29,6 +35,7 @@ const Map = () => {
 							</div>
 						</div>
 					</Popup>
+					<Tooltip>Noor Coffee & Tea</Tooltip>
 				</Marker>
 			</LeafletMap>
 		</div>
