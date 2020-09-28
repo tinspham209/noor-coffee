@@ -33,23 +33,25 @@ export const special = {
 			{
 				cardTitle: "trà atiso macchiato",
 				img: require("../../assets/img/products/macchiato-tra-atiso.jpg"),
-				description: "25.000Đ",
+				description: "37.000Đ",
 
 				urlLinkBtn: "/products",
+				newProduct: true,
 			},
 			{
 				cardTitle: "Sữa chua việt quốc hạt chia ",
 				img: require("../../assets/img/products/yogurt-hat-chia-viet-quoc.jpg"),
-				description: "25.000Đ",
+				description: "35.000Đ",
 
 				urlLinkBtn: "/products",
 			},
 			{
-				cardTitle: "nước ép củ dền",
-				img: require("../../assets/img/products/fruit-cu-den.jpg"),
-				description: "25.000Đ",
+				cardTitle: "Trà sen vàng",
+				img: require("../../assets/img/products/tra-sen-vang.jpg"),
+				description: "30.000Đ",
 
 				urlLinkBtn: "/products",
+				trend: true,
 			},
 		],
 	},
