@@ -177,3 +177,40 @@ import InfoSection from './InfoSection'
 //for named export
 import { InfoSec, InfoRow } from "./InfoSection.elements";
 ```
+
+### How to update new product
+
+```js
+// src/pages/Products/Data.js
+
+export const products = {
+	lightBg: false,
+	lightText: true,
+	lightTextCard: false,
+	buttonLabel: "Chi tiết",
+	productList: [
+		{
+			id: "special", // need to update
+			headlineName: "Nổi bật", // need to update
+
+			products: [
+				{
+					cardTitle: "Cà phê Noor", // need to update
+					img: require("../../assets/img/products/cf-que.jpg"), // need to update
+					description: "25.000Đ", // need to update
+
+					urlLinkBtn: "/products",
+					newProduct: true, // need to update
+					trend: true,// need to update
+				},
+            ]
+        }
+```
+
+- `id`: ID for onScrollToView
+- `headlineName`: name of productList
+- `cardTitle`: name of product
+- `img`: url link image of product
+- `description`: price of product
+- `newProduct`: an Label tag for new product
+- `trend`: an Label tag for Best Seller product
