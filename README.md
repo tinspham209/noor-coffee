@@ -211,10 +211,12 @@ export const products = {
 
 					urlLinkBtn: "/products",
 					newProduct: true, // need to update
-					trend: true,// need to update
+					trend: true, // need to update
 				},
-            ]
-        }
+			],
+		},
+	],
+};
 ```
 
 - `id`: ID for onScrollToView
