@@ -41,6 +41,9 @@
 23. LazyLoad image products
 24. Add StoreMaps to homepage
 25. Add Products Special to homepage
+26. Add label newProduct of Product
+27. Add label trend of product
+28. Import image of product
 
 ### Directory Structure
 
@@ -214,3 +217,9 @@ export const products = {
 - `description`: price of product
 - `newProduct`: an Label tag for new product
 - `trend`: an Label tag for Best Seller product
+
+### How to update Marker, Popup, Tooltip on Maps
+
+### How to update InfoSection
+
+### How to update InfoSectionFull
