@@ -45,6 +45,13 @@
 27. Add label trend of product
 28. Import image of product
 
+### Next Steps:
+
+- Add Grab & Loship online delivery on `/stores`
+- Add information on `about`
+- Update new product image
+- Add `blog`
+
 ### Directory Structure
 
 ```
@@ -96,12 +103,12 @@ For the project to build, these must exist with exact filenames:
 
 - React Hooks
 - react-router-dom
-- react-router-hash-link
 - styled-components
 - react-icons
 - leaflet
 - react-leaflet
 - react-lazy-load-image-component
+- react-sticky-box
 
 ### Production
 
@@ -218,8 +225,22 @@ export const products = {
 - `newProduct`: an Label tag for new product
 - `trend`: an Label tag for Best Seller product
 
+### How to write styled-components
+
+i'll write it as soon as i can 😀
+
 ### How to update Marker, Popup, Tooltip on Maps
+
+i'll write it as soon as i can 😀
 
 ### How to update InfoSection
 
+i'll write it as soon as i can 😀
+
 ### How to update InfoSectionFull
+
+i'll write it as soon as i can 😀
+
+### How to deploy to firebase
+
+i'll write it as soon as i can 😀
