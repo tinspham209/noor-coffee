@@ -26,6 +26,7 @@ export const NavbarContainer = styled(Container)`
 
 export const NavLogo = styled(Link)`
 	color: #fff;
+	text-decoration: none;
 	font-size: 2rem;
 
 	display: flex;
