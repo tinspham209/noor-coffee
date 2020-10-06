@@ -19,18 +19,18 @@ export const InfoRowCenter = styled.div`
 `;
 
 export const TextWrapper = styled.div`
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
 	max-width: 540px;
-
-	padding-top: 0;
-	padding-bottom: 60px;
+	padding: 50px 0px 50px 0px;
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
-	@media screen and (max-width: 768px) {
+	/* @media screen and (max-width: 768px) {
 		padding-bottom: 65px;
-	}
+	} */
 `;
 
 export const Heading = styled.h1`
@@ -38,6 +38,8 @@ export const Heading = styled.h1`
 
 	margin-bottom: 24px;
 	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
 
 	font-size: 200px;
 	font-weight: 600;
