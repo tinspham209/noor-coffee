@@ -1,13 +1,13 @@
 export const hero = {
-	primary: false,
-	lightTopLine: false,
-	lightText: false,
-	lightTextDesc: false,
+	primary: true,
+	lightTopLine: true,
+	lightText: true,
+	lightTextDesc: true,
 	headline: "Noor ",
 	description: "Coffee & Tea",
 	buttonLabel: "Sản phẩm",
 	urlLinkBtn: "/products",
-	urlImg: require("../../assets/img/hangout.svg"),
+	urlImg: require("../../assets/img/anh-bia.jpg"),
 };
 
 export const special = {
