@@ -22,33 +22,50 @@ export const special = {
 		headlineButtonName: "XEM THÊM TẤT CẢ SẢN PHẨM",
 		products: [
 			{
-				cardTitle: "Cà phê Quế",
+				cardTitle: "Cà phê Noor",
 				img: require("../../assets/img/products/cf-que.jpg"),
 				description: "25.000Đ",
 
 				urlLinkBtn: "/products",
+				newProduct: true,
 				trend: true,
-				newProduct: true,
-			},
-			{
-				cardTitle: "trà atiso macchiato",
-				img: require("../../assets/img/products/macchiato-tra-atiso.jpg"),
-				description: "37.000Đ",
-
-				urlLinkBtn: "/products",
-				newProduct: true,
-			},
-			{
-				cardTitle: "Sữa chua việt quốc hạt chia ",
-				img: require("../../assets/img/products/yogurt-hat-chia-viet-quoc.jpg"),
-				description: "35.000Đ",
-
-				urlLinkBtn: "/products",
 			},
 			{
 				cardTitle: "Trà sen vàng",
 				img: require("../../assets/img/products/tra-sen-vang.jpg"),
 				description: "30.000Đ",
+
+				urlLinkBtn: "/products",
+				trend: true,
+			},
+			{
+				cardTitle: "trà atiso macchiato",
+				img: require("../../assets/img/products/macchiato-tra-atiso.jpg"),
+				description: "30.000Đ",
+
+				urlLinkBtn: "/products",
+				newProduct: true,
+			},
+			{
+				cardTitle: "Trà thạch vải",
+				img: require("../../assets/img/products/tra-thach-vai.jpg"),
+				description: "30.000Đ",
+
+				urlLinkBtn: "/products",
+				trend: true,
+			},
+			{
+				cardTitle: "trà đào chanh sả",
+				img: require("../../assets/img/products/tra-dao-chanh-sa.jpg"),
+				description: "30.000Đ",
+
+				urlLinkBtn: "/products",
+				trend: true,
+			},
+			{
+				cardTitle: "Matcha macchiato",
+				img: require("../../assets/img/products/macchiato-tra-xanh.jpg"),
+				description: "37.000Đ",
 
 				urlLinkBtn: "/products",
 				trend: true,

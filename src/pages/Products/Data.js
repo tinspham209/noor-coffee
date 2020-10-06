@@ -29,31 +29,34 @@ export const products = {
 				{
 					cardTitle: "trà atiso macchiato",
 					img: require("../../assets/img/products/macchiato-tra-atiso.jpg"),
-					description: "25.000Đ",
+					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
 					newProduct: true,
 				},
 				{
-					cardTitle: "Sữa chua việt quất hạt chia ",
-					img: require("../../assets/img/products/yogurt-hat-chia-viet-quoc.jpg"),
-					description: "25.000Đ",
-
-					urlLinkBtn: "/products",
-				},
-				{
-					cardTitle: "mojito đào",
-					img: require("../../assets/img/products/mojito-dao.jpg"),
-					description: "32.000Đ",
-
-					urlLinkBtn: "/products",
-				},
-				{
-					cardTitle: "nước ép cần tây",
-					img: require("../../assets/img/products/fruit-can-tay.jpg"),
+					cardTitle: "Trà thạch vải",
+					img: require("../../assets/img/products/tra-thach-vai.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
+					trend: true,
+				},
+				{
+					cardTitle: "trà đào chanh sả",
+					img: require("../../assets/img/products/tra-dao-chanh-sa.jpg"),
+					description: "30.000Đ",
+
+					urlLinkBtn: "/products",
+					trend: true,
+				},
+				{
+					cardTitle: "Matcha macchiato",
+					img: require("../../assets/img/products/macchiato-tra-xanh.jpg"),
+					description: "37.000Đ",
+
+					urlLinkBtn: "/products",
+					trend: true,
 				},
 			],
 		},
@@ -139,6 +142,7 @@ export const products = {
 					description: "40.000Đ",
 
 					urlLinkBtn: "/products",
+					trend: true,
 				},
 			],
 		},
@@ -152,6 +156,7 @@ export const products = {
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
+					trend: true,
 				},
 				{
 					cardTitle: "trà đào chanh sả",
@@ -237,6 +242,7 @@ export const products = {
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
+					trend: true,
 				},
 				{
 					cardTitle: "trà chanh dây macchiato",
@@ -248,6 +254,14 @@ export const products = {
 				{
 					cardTitle: "trà atiso macchiato",
 					img: require("../../assets/img/products/macchiato-tra-atiso.jpg"),
+					description: "37.000Đ",
+
+					urlLinkBtn: "/products",
+					newProduct: true,
+				},
+				{
+					cardTitle: "trà dâu macchiato",
+					img: require("../../assets/img/products/macchiato-tra-dau.jpg"),
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
@@ -313,6 +327,7 @@ export const products = {
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
+					trend: true,
 				},
 				{
 					cardTitle: "Sữa chua chanh dây hạt chia",
@@ -334,6 +349,7 @@ export const products = {
 					description: "35.000Đ",
 
 					urlLinkBtn: "/products",
+					trend: true,
 				},
 			],
 		},
@@ -359,41 +375,6 @@ export const products = {
 					cardTitle: "nước chanh xí muội",
 					img: require("../../assets/img/products/fruit-chanh.jpg"),
 					description: "27.000Đ",
-
-					urlLinkBtn: "/products",
-				},
-				{
-					cardTitle: "nước ép chanh dây",
-					img: require("../../assets/img/products/fruit-chanh-day.jpg"),
-					description: "30.000Đ",
-
-					urlLinkBtn: "/products",
-				},
-				{
-					cardTitle: "nước ép cà rốt",
-					img: require("../../assets/img/products/fruit-ca-rot.jpg"),
-					description: "30.000Đ",
-
-					urlLinkBtn: "/products",
-				},
-				{
-					cardTitle: "nước ép cần tây",
-					img: require("../../assets/img/products/fruit-can-tay.jpg"),
-					description: "30.000Đ",
-
-					urlLinkBtn: "/products",
-				},
-				{
-					cardTitle: "nước ép củ dền",
-					img: require("../../assets/img/products/fruit-cu-den.jpg"),
-					description: "30.000Đ",
-
-					urlLinkBtn: "/products",
-				},
-				{
-					cardTitle: "nước ép cà chua",
-					img: require("../../assets/img/products/fruit-dua-hau.jpg"),
-					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
 				},
