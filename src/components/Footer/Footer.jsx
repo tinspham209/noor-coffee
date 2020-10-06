@@ -38,14 +38,14 @@ const Footer = () => {
 					</WebsiteRights>
 					<SocialIcons>
 						<SocialIconLink
-							href="https://facebook.com/nocaphodn"
+							href="https://facebook.com/noorcoffeedn"
 							target="_blank"
 							aria-label="Facebook"
 						>
 							<FaFacebook />
 						</SocialIconLink>
 						<SocialIconLink
-							href="https://instagram.com/noor.coffeedn"
+							href="https://instagram.com/noorcoffeedn"
 							target="_blank"
 							aria-label="Facebook"
 						>
