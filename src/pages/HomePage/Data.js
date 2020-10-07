@@ -7,7 +7,7 @@ export const hero = {
 	description: "Coffee & Tea",
 	buttonLabel: "Sản phẩm",
 	urlLinkBtn: "/products",
-	urlImg: require("../../assets/img/anh-bia.jpg"),
+	urlImg: require("../../assets/img/anh-bia.webp"),
 };
 
 export const special = {
