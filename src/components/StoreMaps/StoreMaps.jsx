@@ -9,6 +9,8 @@ import {
 	TopLine,
 	Heading,
 	Subtitle,
+	ImgWrapper,
+	Img,
 } from "./StoreMaps.elements";
 import Maps from "./Maps/Maps";
 const StoreMaps = ({
@@ -25,6 +27,10 @@ const StoreMaps = ({
 	primary,
 	urlLinkBtn,
 	buttonLabel,
+	maps,
+	start,
+	img,
+	alt,
 }) => {
 	return (
 		<>
@@ -35,17 +41,13 @@ const StoreMaps = ({
 							<TextWrapper>
 								<TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
 								<Heading lightText={lightText}>{headline}</Heading>
-								<Subtitle lightTextDesc={lightTextDesc}>
-									Địa chỉ: {address}
-								</Subtitle>
-								<Subtitle lightTextDesc={lightTextDesc}>
-									Số điện thoại: {phone}
-								</Subtitle>
+								<Subtitle lightTextDesc={lightTextDesc}>{address}</Subtitle>
+								<Subtitle lightTextDesc={lightTextDesc}>{phone}</Subtitle>
 								<Subtitle
 									lightTextDesc={lightTextDesc}
 									style={{ marginBottom: "35px" }}
 								>
-									Email: {email}
+									{email}
 								</Subtitle>
 								<a href={urlLinkBtn} target="_blank" rel="noopener noreferrer">
 									<Button big fontBig primary={primary}>
@@ -55,7 +57,13 @@ const StoreMaps = ({
 							</TextWrapper>
 						</InfoColumn>
 						<InfoColumn>
-							<Maps />
+							{maps ? (
+								<Maps />
+							) : (
+								<ImgWrapper start={start}>
+									<Img src={img} alt={alt} />
+								</ImgWrapper>
+							)}
 						</InfoColumn>
 					</InfoRow>
 				</Container>

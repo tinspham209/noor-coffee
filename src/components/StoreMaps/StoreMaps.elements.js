@@ -81,3 +81,20 @@ export const Subtitle = styled.p`
 	font-size: 18px;
 	line-height: 24px;
 `;
+
+export const ImgWrapper = styled.div`
+	max-width: 555px;
+	display: flex;
+	justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
+`;
+
+export const Img = styled.img`
+	padding-right: 0;
+	border: 0;
+
+	max-width: 100%;
+	max-height: 500px;
+
+	display: inline-block;
+	vertical-align: middle;
+`;
