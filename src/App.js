@@ -10,6 +10,8 @@ const Products = React.lazy(() => import("./pages/Products/Products"));
 const About = React.lazy(() => import("./pages/About/About"));
 const Blog = React.lazy(() => import("./pages/Blog/Blog"));
 const Stores = React.lazy(() => import("./pages/Stores/Stores"));
+const Grab = React.lazy(() => import("./pages/Grab/Grab"));
+const Loship = React.lazy(() => import("./pages/Loship/Lopship"));
 
 function App() {
 	return (
@@ -24,6 +26,8 @@ function App() {
 					<Route path="/blog" exact component={Blog} />
 					<Route path="/stores" exact component={Stores} />
 					<Route path="/about" exact component={About} />
+					<Route path="/grab" exact component={Grab} />
+					<Route path="/loship" exact component={Loship} />
 					<Route component={NotFound} />
 				</Switch>
 				<Footer />
