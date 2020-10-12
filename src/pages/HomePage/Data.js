@@ -23,7 +23,7 @@ export const special = {
 		products: [
 			{
 				cardTitle: "Cà phê Noor",
-				img: require("../../assets/img/products/cf-que.jpg"),
+				img: require("../../assets/img/products/cafe/cf-que.jpg"),
 				description: "25.000Đ",
 
 				urlLinkBtn: "/products",
@@ -32,7 +32,7 @@ export const special = {
 			},
 			{
 				cardTitle: "Trà sen vàng",
-				img: require("../../assets/img/products/tra-sen-vang.jpg"),
+				img: require("../../assets/img/products/tea/tea-sen-vang.jpg"),
 				description: "30.000Đ",
 
 				urlLinkBtn: "/products",
@@ -40,7 +40,7 @@ export const special = {
 			},
 			{
 				cardTitle: "trà atiso macchiato",
-				img: require("../../assets/img/products/macchiato-tra-atiso.jpg"),
+				img: require("../../assets/img/products/macchiato/macchiato-atiso.jpg"),
 				description: "30.000Đ",
 
 				urlLinkBtn: "/products",
@@ -48,7 +48,7 @@ export const special = {
 			},
 			{
 				cardTitle: "Trà thạch vải",
-				img: require("../../assets/img/products/tra-thach-vai.jpg"),
+				img: require("../../assets/img/products/tea/tea-thach-vai.jpg"),
 				description: "30.000Đ",
 
 				urlLinkBtn: "/products",
@@ -56,7 +56,7 @@ export const special = {
 			},
 			{
 				cardTitle: "trà đào chanh sả",
-				img: require("../../assets/img/products/tra-dao-chanh-sa.jpg"),
+				img: require("../../assets/img/products/tea/tea-tra-dao.jpg"),
 				description: "30.000Đ",
 
 				urlLinkBtn: "/products",
@@ -64,7 +64,7 @@ export const special = {
 			},
 			{
 				cardTitle: "Matcha macchiato",
-				img: require("../../assets/img/products/macchiato-tra-xanh.jpg"),
+				img: require("../../assets/img/products/macchiato/macchiato-matcha.jpg"),
 				description: "37.000Đ",
 
 				urlLinkBtn: "/products",

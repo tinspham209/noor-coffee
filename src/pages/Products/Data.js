@@ -11,7 +11,7 @@ export const products = {
 			products: [
 				{
 					cardTitle: "Cà phê Noor",
-					img: require("../../assets/img/products/cf-que.jpg"),
+					img: require("../../assets/img/products/cafe/cf-que.jpg"),
 					description: "25.000Đ",
 
 					urlLinkBtn: "/products",
@@ -20,7 +20,7 @@ export const products = {
 				},
 				{
 					cardTitle: "Trà sen vàng",
-					img: require("../../assets/img/products/tra-sen-vang.jpg"),
+					img: require("../../assets/img/products/tea/tea-sen-vang.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
@@ -28,7 +28,7 @@ export const products = {
 				},
 				{
 					cardTitle: "trà atiso macchiato",
-					img: require("../../assets/img/products/macchiato-tra-atiso.jpg"),
+					img: require("../../assets/img/products/macchiato/macchiato-atiso.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
@@ -36,7 +36,7 @@ export const products = {
 				},
 				{
 					cardTitle: "Trà thạch vải",
-					img: require("../../assets/img/products/tra-thach-vai.jpg"),
+					img: require("../../assets/img/products/tea/tea-thach-vai.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
@@ -44,7 +44,7 @@ export const products = {
 				},
 				{
 					cardTitle: "trà đào chanh sả",
-					img: require("../../assets/img/products/tra-dao-chanh-sa.jpg"),
+					img: require("../../assets/img/products/tea/tea-tra-dao.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
@@ -52,7 +52,7 @@ export const products = {
 				},
 				{
 					cardTitle: "Matcha macchiato",
-					img: require("../../assets/img/products/macchiato-tra-xanh.jpg"),
+					img: require("../../assets/img/products/macchiato/macchiato-matcha.jpg"),
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
@@ -66,7 +66,7 @@ export const products = {
 			products: [
 				{
 					cardTitle: "Cà phê Noor",
-					img: require("../../assets/img/products/cf-que.jpg"),
+					img: require("../../assets/img/products/cafe/cf-que.jpg"),
 					description: "25.000Đ",
 
 					urlLinkBtn: "/products",
@@ -75,35 +75,35 @@ export const products = {
 				},
 				{
 					cardTitle: "Cà phê Đen",
-					img: require("../../assets/img/products/cf-den.jpg"),
+					img: require("../../assets/img/products/cafe/cf-den.jpg"),
 					description: "15.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "Cà phê Sữa",
-					img: require("../../assets/img/products/cf-sua.jpg"),
+					img: require("../../assets/img/products/cafe/cf-sua.jpg"),
 					description: "17.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "Cà phê Đen SG",
-					img: require("../../assets/img/products/cf-den-sg.jpg"),
+					img: require("../../assets/img/products/cafe/cf-den-sg.jpg"),
 					description: "20.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "Cà phê Sữa SG",
-					img: require("../../assets/img/products/cf-sua-sg.jpg"),
+					img: require("../../assets/img/products/cafe/cf-sua-sg.jpg"),
 					description: "22.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "Bạc xỉu",
-					img: require("../../assets/img/products/cf-bac-xiu.jpg"),
+					img: require("../../assets/img/products/cafe/cf-bac-xiu.jpg"),
 					description: "25.000Đ",
 
 					urlLinkBtn: "/products",
@@ -111,7 +111,7 @@ export const products = {
 				},
 				{
 					cardTitle: "Cacao",
-					img: require("../../assets/img/products/cf-cacao.jpg"),
+					img: require("../../assets/img/products/cafe/cf-cacao.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
@@ -124,21 +124,21 @@ export const products = {
 			products: [
 				{
 					cardTitle: "Cold Brew Truyền thống",
-					img: require("../../assets/img/products/cold-brew-truyen-thong.jpg"),
+					img: require("../../assets/img/products/coldbrew/cold-brew-truyen-thong.jpg"),
 					description: "35.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "Cold Brew sữa tươi",
-					img: require("../../assets/img/products/cold-brew-sua-tuoi.jpg"),
+					img: require("../../assets/img/products/coldbrew/cold-brew-sua-tuoi.jpg"),
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "cold brew sữa tươi machiato",
-					img: require("../../assets/img/products/cold-brew-sua-tuoi-macchiato.jpg"),
+					img: require("../../assets/img/products/coldbrew/cold-brew-macchiato.jpg"),
 					description: "40.000Đ",
 
 					urlLinkBtn: "/products",
@@ -152,7 +152,7 @@ export const products = {
 			products: [
 				{
 					cardTitle: "Trà thạch vải",
-					img: require("../../assets/img/products/tra-thach-vai.jpg"),
+					img: require("../../assets/img/products/tea/tea-thach-vai.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
@@ -160,7 +160,7 @@ export const products = {
 				},
 				{
 					cardTitle: "trà đào chanh sả",
-					img: require("../../assets/img/products/tra-dao-chanh-sa.jpg"),
+					img: require("../../assets/img/products/tea/tea-tra-dao.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
@@ -168,7 +168,7 @@ export const products = {
 				},
 				{
 					cardTitle: "Trà sen vàng",
-					img: require("../../assets/img/products/tra-sen-vang.jpg"),
+					img: require("../../assets/img/products/tea/tea-sen-vang.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
@@ -176,35 +176,35 @@ export const products = {
 				},
 				{
 					cardTitle: "trà tắc xí muội",
-					img: require("../../assets/img/products/tra-tac-xi-muoi.jpg"),
+					img: require("../../assets/img/products/tea/tea-tac-xi-muoi.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "trà chanh quế",
-					img: require("../../assets/img/products/tra-chanh-que.jpg"),
+					img: require("../../assets/img/products/tea/tea-chanh-que.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "trà atiso hạt chia",
-					img: require("../../assets/img/products/tra-atiso-hat-chia.jpg"),
+					img: require("../../assets/img/products/tea/tea-atiso.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "trà việt quất bạc hà",
-					img: require("../../assets/img/products/tra-viet-quat-bac-ha.jpg"),
+					img: require("../../assets/img/products/tea/tea-viet-quat-bat-ha.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "trà bí đao hạt chia",
-					img: require("../../assets/img/products/tra-bi-dao.jpg"),
+					img: require("../../assets/img/products/tea/tea-bi-dao.jpg"),
 					description: "20.000Đ",
 
 					urlLinkBtn: "/products",
@@ -224,21 +224,21 @@ export const products = {
 			products: [
 				{
 					cardTitle: "trà đen macchiato",
-					img: require("../../assets/img/products/macchiato-tra-den.jpg"),
+					img: require("../../assets/img/products/macchiato/macchiato-tra-den.jpg"),
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "trà hoa đậu biếc macchiato",
-					img: require("../../assets/img/products/macchiato-hoa-dau-biet.jpg"),
+					img: require("../../assets/img/products/macchiato/macchiato-hoa-dau-biec.jpg"),
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "Matcha macchiato",
-					img: require("../../assets/img/products/macchiato-tra-xanh.jpg"),
+					img: require("../../assets/img/products/macchiato/macchiato-matcha.jpg"),
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
@@ -246,14 +246,14 @@ export const products = {
 				},
 				{
 					cardTitle: "trà chanh dây macchiato",
-					img: require("../../assets/img/products/macchiato-tra-chanh-day.jpg"),
+					img: require("../../assets/img/products/macchiato/macchiato-tra-chanh-day.jpg"),
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "trà atiso macchiato",
-					img: require("../../assets/img/products/macchiato-tra-atiso.jpg"),
+					img: require("../../assets/img/products/macchiato/macchiato-atiso.jpg"),
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
@@ -261,7 +261,7 @@ export const products = {
 				},
 				{
 					cardTitle: "trà dâu macchiato",
-					img: require("../../assets/img/products/macchiato-tra-dau.jpg"),
+					img: require("../../assets/img/products/macchiato/macchiato-dau.jpg"),
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
@@ -269,7 +269,7 @@ export const products = {
 				},
 				{
 					cardTitle: "cold brew sữa tươi macchiato",
-					img: require("../../assets/img/products/cold-brew-sua-tuoi-macchiato.jpg"),
+					img: require("../../assets/img/products/coldbrew/cold-brew-macchiato.jpg"),
 					description: "40.000Đ",
 
 					urlLinkBtn: "/products",
@@ -282,35 +282,35 @@ export const products = {
 			products: [
 				{
 					cardTitle: "mojito đào",
-					img: require("../../assets/img/products/mojito-dao.jpg"),
+					img: require("../../assets/img/products/mojito/mojito-dao.jpg"),
 					description: "32.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "mojito việt quất bạc hà",
-					img: require("../../assets/img/products/mojito-viet-quat-bac-ha.jpg"),
+					img: require("../../assets/img/products/mojito/mojito-viet-quat-bac-ha.jpg"),
 					description: "32.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "mojito dâu",
-					img: require("../../assets/img/products/mojito-dau.jpg"),
+					img: require("../../assets/img/products/mojito/mojito-dau.jpg"),
 					description: "32.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "mojito bạc hà",
-					img: require("../../assets/img/products/mojito-bac-ha.jpg"),
+					img: require("../../assets/img/products/mojito/mojito-bac-ha.jpg"),
 					description: "32.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "mojito chanh dây",
-					img: require("../../assets/img/products/mojito-chanh-day.jpg"),
+					img: require("../../assets/img/products/mojito/mojito-chanh-day.jpg"),
 					description: "32.000Đ",
 
 					urlLinkBtn: "/products",
@@ -323,7 +323,7 @@ export const products = {
 			products: [
 				{
 					cardTitle: "Sữa chua lá nếp hạt chia",
-					img: require("../../assets/img/products/yogurt-la-nep.jpg"),
+					img: require("../../assets/img/products/yogourt/yogourt-la-nep.jpg"),
 					description: "37.000Đ",
 
 					urlLinkBtn: "/products",
@@ -331,21 +331,21 @@ export const products = {
 				},
 				{
 					cardTitle: "Sữa chua chanh dây hạt chia",
-					img: require("../../assets/img/products/yogurt-hat-chia-chanh-day.png"),
+					img: require("../../assets/img/products/yogourt/yogourt-chanh-day.jpg"),
 					description: "35.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "Sữa chua đào hạt chia ",
-					img: require("../../assets/img/products/yogurt-hat-chia-dao.jpg"),
+					img: require("../../assets/img/products/yogourt/yogourt-dao.jpg"),
 					description: "35.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "Sữa chua việt quất hạt chia ",
-					img: require("../../assets/img/products/yogurt-hat-chia-viet-quoc.jpg"),
+					img: require("../../assets/img/products/yogourt/yogourt-viet-quat.jpg"),
 					description: "35.000Đ",
 
 					urlLinkBtn: "/products",
@@ -359,22 +359,29 @@ export const products = {
 			products: [
 				{
 					cardTitle: "nước cam",
-					img: require("../../assets/img/products/fruit-cam.jpg"),
+					img: require("../../assets/img/products/juice/juice-cam.jpg"),
 					description: "30.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "nước chanh",
-					img: require("../../assets/img/products/fruit-chanh.jpg"),
+					img: require("../../assets/img/products/juice/juice-chanh.jpg"),
 					description: "25.000Đ",
 
 					urlLinkBtn: "/products",
 				},
 				{
 					cardTitle: "nước chanh xí muội",
-					img: require("../../assets/img/products/fruit-chanh.jpg"),
+					img: require("../../assets/img/products/juice/juice-chanh-xi-muoi.jpg"),
 					description: "27.000Đ",
+
+					urlLinkBtn: "/products",
+				},
+				{
+					cardTitle: "nước ép chanh dây",
+					img: require("../../assets/img/products/juice/juice-chanh-day.jpg"),
+					description: "25.000Đ",
 
 					urlLinkBtn: "/products",
 				},
