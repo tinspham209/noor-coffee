@@ -16,6 +16,9 @@ import {
 	FormSelectOption,
 } from "./InfoSecRegisterMember.elements";
 
+import { firebase } from "../../lib/firebase";
+import { getUUID } from "../../utils";
+
 const InfoSecRegisterMember = ({
 	lightBg,
 	imgStart,
@@ -36,8 +39,34 @@ const InfoSecRegisterMember = ({
 
 	const handleFormSubmit = (event) => {
 		event.preventDefault();
-		alert("Dang lam` doi. xiu' sap' xong rui`");
+
+		firebase
+			.firestore()
+			.collection("members")
+			.add({
+				id: getUUID(),
+				dateCreate: new Date(),
+				phoneNumber: phoneNumber,
+				name: name,
+				emailAddress: emailAddress,
+				dob: dob,
+				sex: sex,
+			})
+			.then(function () {
+				alert("Đăng ký thành viên thành công.");
+				window.location = "/";
+			})
+			.catch(function (error) {
+				console.error("Error writing document: ", error);
+			});
 	};
+
+	const isInvalid =
+		phoneNumber === "" ||
+		name === "" ||
+		emailAddress === "" ||
+		dob === "" ||
+		sex === "";
 
 	return (
 		<>
@@ -83,7 +112,11 @@ const InfoSecRegisterMember = ({
 										value={emailAddress}
 										onChange={({ target }) => setEmailAddress(target.value)}
 									/>
-									<Button type="submit" onClick={handleFormSubmit}>
+									<Button
+										disabled={isInvalid}
+										type="submit"
+										onClick={handleFormSubmit}
+									>
 										{buttonLabel}
 									</Button>
 								</Form>
