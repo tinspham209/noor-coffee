@@ -5,3 +5,5 @@ export { default as Footer } from "./Footer/Footer";
 export { default as StoreMaps } from "./StoreMaps/StoreMaps";
 export { default as ProductsComponent } from "./Products/Products";
 export { default as ProductsList } from "./Products/ProductList/ProductList";
+
+export { default as InfoSecRegisterMember } from "./InfoSecRegisterMember/InfoSecRegisterMember.jsx";
