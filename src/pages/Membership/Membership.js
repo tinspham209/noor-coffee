@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { InfoSection } from "../../components";
+import { InfoSecRegisterMember } from "../../components";
 import { homeObjOne } from "./Data";
 const Membership = () => {
 	useEffect(() => {
@@ -7,7 +7,7 @@ const Membership = () => {
 	}, []);
 	return (
 		<>
-			<InfoSection {...homeObjOne} />
+			<InfoSecRegisterMember {...homeObjOne} />
 		</>
 	);
 };
