@@ -37,9 +37,11 @@ export const Heading = styled.h1`
 	color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
 
 	margin-bottom: 24px;
-	text-transform: uppercase;
 	padding-left: 10px;
 	padding-right: 10px;
+
+	text-transform: uppercase;
+	text-shadow: -10px 8px #000;
 
 	font-size: 200px;
 	font-weight: 600;
@@ -47,6 +49,7 @@ export const Heading = styled.h1`
 
 	@media screen and (max-width: 768px) {
 		font-size: 120px;
+		text-shadow: -7px 6px #000;
 	}
 `;
 
