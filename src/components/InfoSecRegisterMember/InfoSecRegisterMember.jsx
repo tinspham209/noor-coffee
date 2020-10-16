@@ -78,17 +78,17 @@ const InfoSecRegisterMember = ({
 								<Heading lightText={lightText}>{headline}</Heading>
 								<Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
 								<Form>
-									<FormLabel htmlFor="">Số điện thoại:</FormLabel>
-									<FormInput
-										type="text"
-										value={phoneNumber}
-										onChange={({ target }) => setPhoneNumber(target.value)}
-									/>
 									<FormLabel htmlFor="">Họ và tên:</FormLabel>
 									<FormInput
 										type="text"
 										value={name}
 										onChange={({ target }) => setName(target.value)}
+									/>
+									<FormLabel htmlFor="">Số điện thoại:</FormLabel>
+									<FormInput
+										type="text"
+										value={phoneNumber}
+										onChange={({ target }) => setPhoneNumber(target.value)}
 									/>
 									<FormLabel htmlFor="">Ngày sinh:</FormLabel>
 									<FormInput
