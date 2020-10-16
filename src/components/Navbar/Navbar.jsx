@@ -50,6 +50,9 @@ const Navbar = () => {
 								<NavLinks to="/stores">Cửa hàng</NavLinks>
 							</NavItem>
 							<NavItem>
+								<NavLinks to="/membership">Thành viên</NavLinks>
+							</NavItem>
+							<NavItem>
 								<NavLinks to="/about">Về chúng tôi</NavLinks>
 							</NavItem>
 						</NavMenu>
