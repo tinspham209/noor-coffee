@@ -57,6 +57,10 @@ export const Button = styled.button`
 		transition: all 0.3s ease-out;
 	}
 
+	&:disabled {
+		opacity: 0.5;
+	}
+
 	@media screen and (max-width: 960px) {
 		width: 100%;
 	}
