@@ -1,6 +1,5 @@
-import Firebase from "firebase/app";
+import * as Firebase from "firebase/app";
 import "firebase/firestore";
-// import { seedDatabase } from "../seed";
 
 // Config
 const config = {
@@ -15,7 +14,5 @@ const config = {
 };
 
 const firebase = Firebase.initializeApp(config);
-
-// seedDatabase(firebase);
 
 export { firebase };
