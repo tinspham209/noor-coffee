@@ -13,6 +13,7 @@ const Stores = React.lazy(() => import("./pages/Stores/Stores"));
 const Grab = React.lazy(() => import("./pages/Grab/Grab"));
 const Loship = React.lazy(() => import("./pages/Loship/Loship"));
 const Membership = React.lazy(() => import("./pages/Membership/Membership"));
+const Feedback = React.lazy(() => import("./pages/Feedback/Feedback"));
 
 function App() {
 	return (
@@ -30,6 +31,7 @@ function App() {
 					<Route path="/grab" exact component={Grab} />
 					<Route path="/loship" exact component={Loship} />
 					<Route path="/membership" exact component={Membership} />
+					<Route path="/feedback" exact component={Feedback} />
 					<Route component={NotFound} />
 				</Switch>
 				<Footer />
