@@ -38,7 +38,7 @@
 20. Create ProductList component
 21. Create Product component
 22. Import Data to Products page
-23. LazyLoad image products
+23. Optimize load image with: LazyLoad image
 24. Add StoreMaps to homepage
 25. Add Products Special to homepage
 26. Add label newProduct of Product
@@ -49,8 +49,10 @@
 31. Membership page UI
 32. Setup Firestore
 33. Membership database
-34. Feedback page UI
-35. Feedback database
+34. POST member data to Firestore `members`
+35. Export data from Firestore to Google Sheets
+36. Feedback page UI
+37. POST feedback data to Firestore `feedback`
 
 ### Next Steps:
 
@@ -63,13 +65,19 @@
 .
 ├── .gitignore
 ├── package.json
+├── package-lock.json
 ├── README.md
+├── deploy-firebase
+├── .firebaserc
+├── firebase.json
 ├── public
 └── src
     ├── assets
         └── img
     ├── components
         ├── Footer
+        ├── InfoSecFeedback
+        ├── InfoSecRegisterMember
         ├── InfoSection
         ├── InfoSectionFull
         ├── Navbar
@@ -84,14 +92,21 @@
             └── index.js
         ├── ScrollToTop.jsx
         └── index.js
+    ├── lib
+        └── firebase.js
     ├── pages
         ├── About
         ├── Blog
+        ├── Feedback
+        ├── Grab
         ├── HomePage
+        ├── Loship
+        ├── Membership
         ├── Products
         └── Stores
     ├── App.js
     ├── GlobalStyles.js
+    ├── utils.js
     └── index.js
 ```
 
@@ -109,11 +124,14 @@ For the project to build, these must exist with exact filenames:
 - React Hooks
 - react-router-dom
 - styled-components
+- Firebase
 - react-icons
 - leaflet
 - react-leaflet
 - react-lazy-load-image-component
 - react-sticky-box
+- react-rating-stars-component
+- img design from https://undraw.co/
 
 ### Production
 
@@ -244,6 +262,26 @@ i'll write it as soon as i can 😀
 
 i'll write it as soon as i can 😀
 
-### How to deploy to firebase
+### How to update InfoSecFeedback
+
+i'll write it as soon as i can 😀
+
+### How to update InfoSecRegisterMember
+
+i'll write it as soon as i can 😀
+
+### How to deploy to firebase hosting
+
+i'll write it as soon as i can 😀
+
+### How to get firebaseConfig
+
+i'll write it as soon as i can 😀
+
+### How to POST data to Firestore
+
+i'll write it as soon as i can 😀
+
+### How to export data from Firestore to Google Sheets
 
 i'll write it as soon as i can 😀
