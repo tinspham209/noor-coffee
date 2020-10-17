@@ -1,14 +1,21 @@
-# Project: Noor Coffee Website
+# Project: NOOR Coffee Website
 
-### Date: Sep - 2020
+### Date: Sep - 2020 to present
 
 ### Functions
 
-- Design website for my coffee shop in Danang 😙
+- Homepage
+- List of products
+- Display store in Maps
+- Scan QR Code to delivery on Grab & Loship
+- Membership form
+- Feedback form
+- About us (coming soon)
+- Blog (coming soon)
 
 ### Screenshot
 
-<img src="https://i.imgur.com/okPlhtY.png" alt="noor-coffee-website"/>
+<img src="https://i.imgur.com/VxRqALz.png" alt="noor-coffee-website"/>
 
 ### Releases
 
