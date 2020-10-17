@@ -84,12 +84,6 @@ const InfoSecRegisterMember = ({
 										value={name}
 										onChange={({ target }) => setName(target.value)}
 									/>
-									<FormLabel htmlFor="">Số điện thoại:</FormLabel>
-									<FormInput
-										type="text"
-										value={phoneNumber}
-										onChange={({ target }) => setPhoneNumber(target.value)}
-									/>
 									<FormLabel htmlFor="">Ngày sinh:</FormLabel>
 									<FormInput
 										type="date"
@@ -111,6 +105,12 @@ const InfoSecRegisterMember = ({
 										type="email"
 										value={emailAddress}
 										onChange={({ target }) => setEmailAddress(target.value)}
+									/>
+									<FormLabel htmlFor="">Số điện thoại:</FormLabel>
+									<FormInput
+										type="text"
+										value={phoneNumber}
+										onChange={({ target }) => setPhoneNumber(target.value)}
 									/>
 									<Button
 										disabled={isInvalid}
