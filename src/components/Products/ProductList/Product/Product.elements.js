@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-
+import { Button } from "../../../../GlobalStyles";
 export const Card = styled.div`
 	height: auto;
 
 	margin: 5px;
 	padding: 16px;
 
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.95);
 	border-radius: 10px;
 
 	text-align: center;
@@ -38,7 +38,7 @@ export const CardImage = styled.div`
 
 export const Img = styled(LazyLoadImage)`
 	padding-right: 0;
-	border: 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
 
 	vertical-align: middle;
@@ -105,22 +105,14 @@ export const CardDescription = styled.div`
 	color: #ec8b38;
 `;
 
-export const Button = styled.button`
+export const ButtonCard = styled(Button)`
 	width: 100%;
-	padding: 10px;
-
-	background-color: #f9ca24;
-	color: #000;
-
-	border: none;
-	border-radius: 5px;
-
 	font-weight: bold;
 	font-size: 20px;
 	text-transform: uppercase;
 
 	&:hover {
-		color: #4b59f7;
+		color: #000;
 		box-shadow: 0px 5px 5px #b2bec3;
 	}
 `;

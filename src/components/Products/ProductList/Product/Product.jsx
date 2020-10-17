@@ -12,7 +12,7 @@ import {
 	TrendLabel,
 	NewLabel,
 	CardTitle,
-	Button,
+	ButtonCard,
 } from "./Product.elements";
 const Product = ({
 	lightTextCard,
@@ -43,7 +43,7 @@ const Product = ({
 				<CardTitle lightTextCard={lightTextCard}>{cardTitle}</CardTitle>
 				<CardDescription>{description}</CardDescription>
 				<Link to={urlLinkBtn}>
-					<Button>{buttonLabel}</Button>
+					<ButtonCard>{buttonLabel}</ButtonCard>
 				</Link>
 			</Card>
 		</>
