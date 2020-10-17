@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ReactStars from "react-rating-stars-component";
 
 export const InfoSec = styled.div`
 	color: #fff;
@@ -58,7 +59,7 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
 	color: ${({ lightTextDesc }) => (lightTextDesc ? "#a9b3c1" : "#1c2237")};
 
-	margin-bottom: 35px;
+	margin: 10px 0 10px 0;
 
 	max-width: 440px;
 
@@ -105,6 +106,7 @@ export const FormInput = styled.input`
 	font-size: 18px;
 
 	padding: 10px;
+	margin-bottom: 10px;
 	outline: none;
 
 	background: #333;
@@ -123,6 +125,7 @@ export const FormTextarea = styled.textarea`
 
 	font-size: 18px;
 
+	margin-bottom: 20px;
 	padding: 10px;
 
 	border: 0;
@@ -131,10 +134,6 @@ export const FormTextarea = styled.textarea`
 	background: #333;
 	border-radius: 4px;
 	color: #fff;
-
-	&:last-of-type {
-		margin-bottom: 20px;
-	}
 `;
 
 export const FormSelect = styled.select`
@@ -142,6 +141,8 @@ export const FormSelect = styled.select`
 	font-size: 18px;
 
 	padding: 10px;
+	margin-bottom: 10px;
+
 	outline: none;
 
 	background: #333;
@@ -151,3 +152,9 @@ export const FormSelect = styled.select`
 `;
 
 export const FormSelectOption = styled.option``;
+
+export const StarsRating = styled(ReactStars)`
+	margin-bottom: 20px;
+	outline: none;
+	border: none;
+`;

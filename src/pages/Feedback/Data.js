@@ -7,7 +7,7 @@ export const homeObjOne = {
 	start: "",
 	headline: "Đánh giá",
 	description:
-		"Mỗi đánh giá của bạn giúp dịch vụ của NOOR hoàn thiện hơn mỗi ngày!",
+		"Mỗi lượt góp ý của bạn sẽ giúp dịch vụ của NOOR hoàn thiện hơn mỗi ngày!",
 	buttonLabel: "Gửi đánh giá",
 	img: require("../../assets/img/feedback.svg"),
 	alt: "feedback",
