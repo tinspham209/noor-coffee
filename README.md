@@ -44,12 +44,17 @@
 26. Add label newProduct of Product
 27. Add label trend of product
 28. Import image of product
+29. Redirect to Grab
+30. Redirect to Loship
+31. Membership page UI
+32. Setup Firestore
+33. Membership database
+34. Feedback page UI
+35. Feedback database
 
 ### Next Steps:
 
-- Add Grab & Loship online delivery on `/stores`
 - Add information on `about`
-- Update new product image
 - Add `blog`
 
 ### Directory Structure
