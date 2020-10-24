@@ -1,7 +1,12 @@
 import React, { useEffect } from "react";
-import { InfoSectionFull, StoreMaps, ProductsList } from "../../components";
+import {
+	InfoSectionFull,
+	StoreMaps,
+	ProductsList,
+	InfoSection,
+} from "../../components";
 import { Container } from "../../GlobalStyles";
-import { hero, special } from "./Data";
+import { hero, special, feedback } from "./Data";
 import { Maps } from "../Stores/Data";
 
 const HomePage = () => {
@@ -13,8 +18,8 @@ const HomePage = () => {
 		<>
 			<InfoSectionFull {...hero} />
 			<StoreMaps {...Maps} />
-			{/* <ProductsComponent products={special} /> */}
 
+			{/* Product list */}
 			<div
 				style={{
 					background: "#101522",
@@ -35,6 +40,8 @@ const HomePage = () => {
 					/>
 				</Container>
 			</div>
+
+			<InfoSection {...feedback} />
 		</>
 	);
 };

@@ -10,6 +10,24 @@ export const hero = {
 	urlImg: require("../../assets/img/anh-bia.webp"),
 };
 
+export const feedback = {
+	primary: true,
+	lightBg: false,
+	lightTopLine: false,
+	lightText: true,
+	lightTextDesc: true,
+	topLine: "Noor Coffee & Tea",
+	headline: "Đánh giá dịch vụ của NOOR.",
+	description:
+		"Mỗi lượt góp ý của bạn sẽ giúp cho NOOR cải thiện dịch vụ để phục vụ bạn tốt hơn nữa!",
+	buttonLabel: "Đánh giá",
+	urlLinkBtn: "/feedback",
+	imgStart: true,
+	img: require("../../assets/img/feedback.svg"),
+	alt: "feedback",
+	start: "",
+};
+
 export const special = {
 	lightBg: false,
 	lightText: true,
