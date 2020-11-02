@@ -63,8 +63,11 @@
 
 ### Next Steps:
 
-- Add information on `about`
-- Add `blog`
+- can't use navbar on IOS `./components/navbar`
+- Layout broken on IOS `pages/homepage`
+- Change smaller star icon for IOS devices `pages/feedback`
+- Add information on `page/about`
+- Add `pages/blog`
 
 ### Directory Structure
 
