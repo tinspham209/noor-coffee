@@ -1,6 +1,6 @@
 # Project: NOOR Coffee Website
 
-### Date: Sep - 2020 to present
+### Date: Sep - 2020
 
 ### Functions
 
@@ -16,50 +16,6 @@
 ### Screenshot
 
 <img src="https://i.imgur.com/VxRqALz.png" alt="noor-coffee-website"/>
-
-### Releases
-
-- https://noordn.cf
-
-### Plan Of Action
-
-1. Initial Project
-2. setup react, install tool
-3. Design Wireframe
-4. Creating globalStyles
-5. Creating Navbar
-6. Initial Homepage
-7. Creating Footer
-8. Creating InfoSection
-9. Import Data to InfoSection
-10. Create Stores page
-11. Create StoreMaps component
-12. Create Maps component
-13. Implement OpenStreetMap to StoreMaps
-14. Deploy to Firebase
-15. Add custom domain
-16. Add SSL certification for domain
-17. Import Data to Stores page
-18. Create Products page
-19. Create Products component
-20. Create ProductList component
-21. Create Product component
-22. Import Data to Products page
-23. Optimize load image with: LazyLoad image
-24. Add StoreMaps to homepage
-25. Add Products Special to homepage
-26. Add label newProduct of Product
-27. Add label trend of product
-28. Import image of product
-29. Redirect to Grab
-30. Redirect to Loship
-31. Membership page UI
-32. Setup Firestore
-33. Membership database
-34. POST member data to Firestore `members`
-35. Export data from Firestore to Google Sheets
-36. Feedback page UI
-37. POST feedback data to Firestore `feedback`
 
 ### Next Steps:
 
@@ -262,36 +218,36 @@ export const products = {
 
 ### How to update Marker, Popup, Tooltip on Maps
 
-i'll write it as soon as i can 😀
+- Contact me !
 
 ### How to update InfoSection
 
-i'll write it as soon as i can 😀
+- Contact me !
 
 ### How to update InfoSectionFull
 
-i'll write it as soon as i can 😀
+- Contact me !
 
 ### How to update InfoSecFeedback
 
-i'll write it as soon as i can 😀
+- Contact me !
 
 ### How to update InfoSecRegisterMember
 
-i'll write it as soon as i can 😀
+- Contact me !
 
 ### How to deploy to firebase hosting
 
-i'll write it as soon as i can 😀
+- Contact me !
 
 ### How to get firebaseConfig
 
-i'll write it as soon as i can 😀
+- Contact me !
 
 ### How to POST data to Firestore
 
-i'll write it as soon as i can 😀
+- Contact me !
 
 ### How to export data from Firestore to Google Sheets
 
-i'll write it as soon as i can 😀
+- Contact me !
